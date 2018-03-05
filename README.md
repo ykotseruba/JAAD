@@ -8,13 +8,13 @@ All video sequences can be downloaded in mp4 and seq format from our project sit
 To convert the video clips to image sequences, use the script 'split_clips_to_frames.sh'.
 
 ## Bounding boxes
-The bounding boxes are provided for all pedestrians in the video (and very few vehicles) in vbb format which require a Piotr Dollar's Computer Vision Matlab Toolbox available at (https://pdollar.github.io/toolbox/).  
+The bounding boxes are provided for all pedestrians in the videos (and very few vehicles) in vbb format which require a Piotr Dollar's Computer Vision Matlab Toolbox available at (https://pdollar.github.io/toolbox/). In total there are over 390K bounding boxes for 2793 unique pedestrians found in 88K video frames.
 
-There are two folders with bounding boxes.
-vbb_part contains bounding boxes with occlusion flags set to 1 for partial or full occlusion (>75% of the object occluded).  
-vbb_full contains bounding boxes ONLY with full occlusion.  
+There are two folders with bounding boxes.  
+* vbb_part contains bounding boxes with occlusion flags set to 1 for partial or full occlusion (partial occlusion is defined when between 25% and 75% of the object is covered, full occlusion is set when >75% of the object is covered).  
+* vbb_full contains bounding boxes ONLY with full occlusion.  
 
-To open vbb files in Matlab use the following command:
+To open vbb files in Matlab use the following command from the toolbox:
 ```
 A = vbb('vbbLoad', 'vbb_part/video_0001.vbb');
 ```
@@ -38,7 +38,7 @@ stop sign (1) is visible in frames 1-30 and 90-240
 the whole scene is filmed in a parking lot (7)
 
 ## Pedestrian attributes
-For all pedestrians that have associated behavioral data we provide additional attributes in a text file (pedestrian_attributes.txt).  
+In JAAD dataset we identified 686 pedestrians that interact with the driver. In addition to the timestamped behavioral data we provide additional attributes for each pedestrian in a text file (pedestrian_attributes.txt).  
 Each line lists attributes (comma-separated) for a single pedestrian in the following order:  
 video_id, pedestrian_id, group_size, direction, designated, signalized, gender, age, num_lanes, traffic direction, intersection, crossing
 
@@ -52,7 +52,7 @@ video_id, pedestrian_id, group_size, direction, designated, signalized, gender, 
 * intersection: yes - crossing at the intersection and no otherwise
 * crossing: 1 - pedestrian completes crossing, 0 - pedestrian does not cross, -1 - no intention of crossing (e.g. waiting at the bus stop, talking to somebody at the curb)
 
-When there is no pedestrians in the video, all attributes are set to "n/a".
+When there are no pedestrians in the video, all attributes are set to "n/a".
 
 
 ## Behavioral annotations
