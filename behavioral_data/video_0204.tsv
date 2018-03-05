@@ -1,0 +1,50 @@
+Observation id	video_0204
+
+Media file(s)
+
+Player #1	clips_mp4/video_0204.mp4
+
+Observation date	2016-05-21 19:37:34
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0204.mp4	5.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian2	looking			START
+0.033	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian2	 standing			START
+0.033	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian3	crossing			START
+0.033	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian4	 standing			START
+0.033	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian5	crossing			START
+0.033	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian6	crossing			START
+0.133	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian1	crossing			START
+0.704	clips_mp4/video_0204.mp4	5.0	30.0	Driver	moving fast			STOP
+0.705	clips_mp4/video_0204.mp4	5.0	30.0	Driver	slow down			START
+1.133	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian1	looking			START
+1.733	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian2	looking			STOP
+1.900	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian2	 standing			STOP
+1.933	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian3	crossing			STOP
+1.967	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian3	slow down			START
+2.000	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian1	slow down			START
+2.900	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian3	slow down			STOP
+2.933	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian3	crossing			START
+2.601	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian5	crossing			STOP
+2.602	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian5	 walking			START
+2.736	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian6	crossing			STOP
+2.737	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian6	 walking			START
+3.000	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian1	slow down			STOP
+3.100	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian1	looking			STOP
+3.100	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian4	 standing			STOP
+3.667	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian3	crossing			STOP
+5.000	clips_mp4/video_0204.mp4	5.0	30.0	Driver	slow down			STOP
+5.000	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian1	crossing			STOP
+5.000	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian5	 walking			STOP
+5.000	clips_mp4/video_0204.mp4	5.0	30.0	pedestrian6	 walking			STOP

@@ -1,0 +1,30 @@
+Observation id	video_0033
+
+Media file(s)
+
+Player #1	clips_mp4/video_0033.mp4
+
+Observation date	2016-05-07 18:04:42
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	afternoon
+location	plaza
+weather	snow
+road conditions	wet							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.190	clips_mp4/video_0033.mp4	7.01	29.97	Driver	moving slow			START
+0.197	clips_mp4/video_0033.mp4	7.01	29.97	car	moving slow			START
+0.204	clips_mp4/video_0033.mp4	7.01	29.97	car	flasher signal			START
+1.437	clips_mp4/video_0033.mp4	7.01	29.97	Driver	moving slow			STOP
+1.438	clips_mp4/video_0033.mp4	7.01	29.97	Driver	slow down			START
+1.977	clips_mp4/video_0033.mp4	7.01	29.97	car	moving slow			STOP
+1.978	clips_mp4/video_0033.mp4	7.01	29.97	car	stopped			START
+5.997	clips_mp4/video_0033.mp4	7.01	29.97	car	flasher signal			STOP
+6.530	clips_mp4/video_0033.mp4	7.01	29.97	car	stopped			STOP
+7.007	clips_mp4/video_0033.mp4	7.01	29.97	Driver	slow down			STOP

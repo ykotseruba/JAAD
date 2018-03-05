@@ -1,0 +1,46 @@
+Observation id	video_0025
+
+Media file(s)
+
+Player #1	clips_mp4/video_0025.mp4
+
+Observation date	2016-05-07 16:48:01
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0025.mp4	7.01	29.97	Driver	moving fast			START
+0.033	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian1	crossing			START
+0.033	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian2	walking			START
+0.033	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian3	walking			START
+0.033	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian4	walking			START
+0.033	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian5	walking			START
+0.033	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian6	walking			START
+0.667	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian2	walking			STOP
+0.667	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian3	walking			STOP
+0.700	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian2	crossing			START
+0.700	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian3	crossing			START
+1.400	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian4	walking			STOP
+1.433	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian4	crossing			START
+1.400	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian5	walking			STOP
+1.433	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian5	crossing			START
+1.900	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian6	walking			STOP
+1.933	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian6	crossing			START
+2.749	clips_mp4/video_0025.mp4	7.01	29.97	Driver	moving fast			STOP
+2.750	clips_mp4/video_0025.mp4	7.01	29.97	Driver	slow down			START
+6.700	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian3	crossing			STOP
+6.733	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian1	crossing			STOP
+6.833	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian2	crossing			STOP
+6.833	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian4	crossing			STOP
+7.007	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian5	crossing			STOP
+7.007	clips_mp4/video_0025.mp4	7.01	29.97	pedestrian6	crossing			STOP
+7.007	clips_mp4/video_0025.mp4	7.01	29.97	Driver	slow down			STOP

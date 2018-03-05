@@ -1,0 +1,56 @@
+Observation id	video_0267
+
+Media file(s)
+
+Player #1	clips_mp4/video_0267.mp4
+
+Observation date	2016-05-22 18:21:31
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0267.mp4	8.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian1	WALKING			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	 standing			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	looking			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	WALKING			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian4	looking			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian5	 walking			START
+0.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian4	 walking			START
+0.998	clips_mp4/video_0267.mp4	8.0	30.0	Driver	moving fast			STOP
+0.999	clips_mp4/video_0267.mp4	8.0	30.0	Driver	slow down			START
+1.015	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	WALKING			STOP
+1.016	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	crossing			START
+1.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian1	looking			START
+1.033	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian4	looking			STOP
+1.733	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian4	 walking			STOP
+1.767	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian4	crossing			START
+1.100	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	 looking			START
+1.133	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	looking			STOP
+1.433	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian1	looking			STOP
+1.467	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	 looking			STOP
+1.575	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian1	WALKING			STOP
+1.576	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian1	crossing			START
+1.433	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	 standing			STOP
+1.467	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	crossing			START
+2.440	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian5	 walking			STOP
+2.441	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian5	crossing			START
+5.900	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	crossing			STOP
+5.933	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	walking			START
+7.000	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian2	walking			STOP
+6.467	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	crossing			STOP
+6.500	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	walking			START
+7.767	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian3	walking			STOP
+7.983	clips_mp4/video_0267.mp4	8.0	30.0	Driver	slow down			STOP
+8.000	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian1	crossing			STOP
+8.000	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian4	crossing			STOP
+8.000	clips_mp4/video_0267.mp4	8.0	30.0	pedestrian5	crossing			STOP

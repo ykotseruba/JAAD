@@ -1,0 +1,40 @@
+Observation id	video_0115
+
+Media file(s)
+
+Player #1	clips_mp4/video_0115.mp4
+
+Observation date	2016-05-09 21:29:24
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0115.mp4	15.0	30.0	Driver	moving fast			START
+0.015	clips_mp4/video_0115.mp4	15.0	30.0	car2	stopped			START
+2.967	clips_mp4/video_0115.mp4	15.0	30.0	pedestrian1	walking			START
+3.138	clips_mp4/video_0115.mp4	15.0	30.0	car2	stopped			STOP
+4.300	clips_mp4/video_0115.mp4	15.0	30.0	pedestrian1	looking			START
+4.414	clips_mp4/video_0115.mp4	15.0	30.0	car1	moving slow			START
+5.100	clips_mp4/video_0115.mp4	15.0	30.0	pedestrian1	looking			STOP
+5.300	clips_mp4/video_0115.mp4	15.0	30.0	pedestrian1	walking			STOP
+7.236	clips_mp4/video_0115.mp4	15.0	30.0	car1	moving slow			STOP
+7.237	clips_mp4/video_0115.mp4	15.0	30.0	car1	flasher signal			START
+7.237	clips_mp4/video_0115.mp4	15.0	30.0	car1	stopped			START
+7.686	clips_mp4/video_0115.mp4	15.0	30.0	Driver	moving fast			STOP
+7.687	clips_mp4/video_0115.mp4	15.0	30.0	Driver	slow down			START
+10.164	clips_mp4/video_0115.mp4	15.0	30.0	car1	stopped			STOP
+10.165	clips_mp4/video_0115.mp4	15.0	30.0	car1	speed up			START
+10.914	clips_mp4/video_0115.mp4	15.0	30.0	Driver	slow down			STOP
+10.915	clips_mp4/video_0115.mp4	15.0	30.0	Driver	moving slow			START
+12.027	clips_mp4/video_0115.mp4	15.0	30.0	car1	flasher signal			STOP
+15.000	clips_mp4/video_0115.mp4	15.0	30.0	Driver	moving slow			STOP
+15.000	clips_mp4/video_0115.mp4	15.0	30.0	car1	speed up			STOP

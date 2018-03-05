@@ -1,0 +1,46 @@
+Observation id	video_0144
+
+Media file(s)
+
+Player #1	clips_mp4/video_0144.mp4
+
+Observation date	2016-05-15 19:57:31
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0144.mp4	9.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian1	crossing			START
+0.033	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	walking			START
+0.824	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	walking			STOP
+0.825	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	crossing			START
+1.464	clips_mp4/video_0144.mp4	9.0	30.0	Driver	moving fast			STOP
+1.465	clips_mp4/video_0144.mp4	9.0	30.0	Driver	slow down			START
+3.067	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	crossing			START
+3.167	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian4	crossing			START
+3.467	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	looking			START
+3.833	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	looking			STOP
+4.133	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	looking			START
+4.567	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	looking			START
+4.700	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	looking			STOP
+4.833	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	looking			START
+4.933	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	looking			STOP
+5.100	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	looking			STOP
+5.767	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian1	looking			START
+6.000	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	looking			START
+6.300	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian1	looking			STOP
+6.533	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	looking			STOP
+6.833	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian1	crossing			STOP
+6.967	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian2	crossing			STOP
+7.867	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian3	crossing			STOP
+8.033	clips_mp4/video_0144.mp4	9.0	30.0	pedestrian4	crossing			STOP
+9.000	clips_mp4/video_0144.mp4	9.0	30.0	Driver	slow down			STOP

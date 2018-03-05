@@ -1,0 +1,34 @@
+Observation id	video_0019
+
+Media file(s)
+
+Player #1	clips_mp4/video_0019.mp4
+
+Observation date	2016-05-07 16:11:59
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.190	clips_mp4/video_0019.mp4	16.02	29.97	Driver	moving slow			START
+0.206	clips_mp4/video_0019.mp4	16.02	29.97	car	flasher signal			START
+0.206	clips_mp4/video_0019.mp4	16.02	29.97	car	stopped			START
+8.750	clips_mp4/video_0019.mp4	16.02	29.97	Driver	moving slow			STOP
+8.751	clips_mp4/video_0019.mp4	16.02	29.97	Driver	slow down			START
+9.279	clips_mp4/video_0019.mp4	16.02	29.97	car	stopped			STOP
+9.280	clips_mp4/video_0019.mp4	16.02	29.97	car	moving slow			START
+11.684	clips_mp4/video_0019.mp4	16.02	29.97	car	flasher signal			STOP
+12.501	clips_mp4/video_0019.mp4	16.02	29.97	Driver	slow down			STOP
+12.502	clips_mp4/video_0019.mp4	16.02	29.97	Driver	speed up			START
+14.104	clips_mp4/video_0019.mp4	16.02	29.97	Driver	speed up			STOP
+14.105	clips_mp4/video_0019.mp4	16.02	29.97	Driver	moving slow			START
+15.983	clips_mp4/video_0019.mp4	16.02	29.97	Driver	moving slow			STOP
+16.016	clips_mp4/video_0019.mp4	16.02	29.97	car	moving slow			STOP

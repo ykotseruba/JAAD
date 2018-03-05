@@ -1,0 +1,24 @@
+Observation id	video_0104
+
+Media file(s)
+
+Player #1	clips_mp4/video_0104.mp4
+
+Observation date	2016-05-11 17:42:27
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0104.mp4	5.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0104.mp4	5.0	30.0	pedestrian	crossing			START
+4.833	clips_mp4/video_0104.mp4	5.0	30.0	pedestrian	crossing			STOP
+5.000	clips_mp4/video_0104.mp4	5.0	30.0	Driver	moving slow			STOP

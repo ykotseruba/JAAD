@@ -1,0 +1,54 @@
+Observation id	video_0310
+
+Media file(s)
+
+Player #1	clips_mp4/video_0310.mp4
+
+Observation date	2016-05-22 19:53:31
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0310.mp4	5.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	looking			START
+0.033	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	STANDING			START
+0.033	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian2	looking			START
+0.033	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian2	STANDING			START
+0.033	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	 standing			START
+0.567	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian4	 walking			START
+0.679	clips_mp4/video_0310.mp4	5.0	30.0	Driver	moving fast			STOP
+0.680	clips_mp4/video_0310.mp4	5.0	30.0	Driver	slow down			START
+0.700	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	looking			START
+0.767	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian4	looking			START
+1.295	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian4	 walking			STOP
+1.296	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian4	crossing			START
+1.300	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	looking			STOP
+1.333	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	looking			STOP
+1.540	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	 standing			STOP
+1.541	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	crossing			START
+1.433	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	STANDING			STOP
+1.467	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	crossing			START
+2.100	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	speed up			START
+2.111	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian2	STANDING			STOP
+2.112	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian2	crossing			START
+2.367	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian4	looking			STOP
+2.433	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian2	looking			STOP
+2.821	clips_mp4/video_0310.mp4	5.0	30.0	Driver	slow down			STOP
+2.822	clips_mp4/video_0310.mp4	5.0	30.0	Driver	stopped			START
+3.000	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	 looking			START
+3.567	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	 looking			STOP
+4.067	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	speed up			STOP
+4.900	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian4	crossing			STOP
+5.000	clips_mp4/video_0310.mp4	5.0	30.0	Driver	stopped			STOP
+5.000	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian1	crossing			STOP
+5.000	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian2	crossing			STOP
+5.000	clips_mp4/video_0310.mp4	5.0	30.0	pedestrian3	crossing			STOP

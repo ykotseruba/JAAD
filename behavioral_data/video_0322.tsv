@@ -1,0 +1,32 @@
+Observation id	video_0322
+
+Media file(s)
+
+Player #1	clips_mp4/video_0322.mp4
+
+Observation date	2016-05-22 20:22:51
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0322.mp4	9.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	crossing			START
+1.000	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	looking			START
+2.455	clips_mp4/video_0322.mp4	9.0	30.0	Driver	moving slow			STOP
+2.456	clips_mp4/video_0322.mp4	9.0	30.0	Driver	slow down			START
+3.716	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	crossing			STOP
+3.717	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	STANDING			START
+4.194	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	STANDING			STOP
+4.195	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	crossing			START
+4.233	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	looking			STOP
+9.000	clips_mp4/video_0322.mp4	9.0	30.0	Driver	slow down			STOP
+9.000	clips_mp4/video_0322.mp4	9.0	30.0	pedestrian	crossing			STOP

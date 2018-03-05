@@ -1,0 +1,30 @@
+Observation id	video_0008
+
+Media file(s)
+
+Player #1	clips_mp4/video_0008.mp4
+
+Observation date	2016-05-05 21:16:05
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	snow
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0008.mp4	5.01	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	looking			START
+0.033	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	 walking			START
+1.835	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	looking			STOP
+2.703	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	looking			START
+2.867	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	 walking			STOP
+2.900	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	 standing			START
+3.733	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	looking			STOP
+3.733	clips_mp4/video_0008.mp4	5.01	29.97	pedestrian	 standing			STOP
+5.005	clips_mp4/video_0008.mp4	5.01	29.97	Driver	moving slow			STOP

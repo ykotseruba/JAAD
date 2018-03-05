@@ -1,0 +1,32 @@
+Observation id	video_0013
+
+Media file(s)
+
+Player #1	clips_mp4/video_0013.mp4
+
+Observation date	2016-05-07 14:25:46
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	indoor
+weather	n/a
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.195	clips_mp4/video_0013.mp4	5.01	29.97	Driver	moving slow			START
+0.195	clips_mp4/video_0013.mp4	5.01	29.97	car	moving slow			START
+0.629	clips_mp4/video_0013.mp4	5.01	29.97	car	moving slow			STOP
+0.630	clips_mp4/video_0013.mp4	5.01	29.97	car	slow down			START
+1.251	clips_mp4/video_0013.mp4	5.01	29.97	car	slow down			STOP
+1.252	clips_mp4/video_0013.mp4	5.01	29.97	car	stopped			START
+1.311	clips_mp4/video_0013.mp4	5.01	29.97	Driver	moving slow			STOP
+1.312	clips_mp4/video_0013.mp4	5.01	29.97	Driver	slow down			START
+4.046	clips_mp4/video_0013.mp4	5.01	29.97	Driver	slow down			STOP
+4.047	clips_mp4/video_0013.mp4	5.01	29.97	Driver	speed up			START
+4.192	clips_mp4/video_0013.mp4	5.01	29.97	car	stopped			STOP
+5.005	clips_mp4/video_0013.mp4	5.01	29.97	Driver	speed up			STOP

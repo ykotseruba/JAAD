@@ -1,0 +1,28 @@
+Observation id	video_0343
+
+Media file(s)
+
+Player #1	clips_mp4/video_0343.mp4
+
+Observation date	2016-05-22 21:04:56
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	wet							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0343.mp4	24.0	30.0	Driver	stopped			START
+0.015	clips_mp4/video_0343.mp4	24.0	30.0	car	flasher signal			START
+0.087	clips_mp4/video_0343.mp4	24.0	30.0	car	stopped			START
+20.218	clips_mp4/video_0343.mp4	24.0	30.0	Driver	stopped			STOP
+20.219	clips_mp4/video_0343.mp4	24.0	30.0	Driver	moving slow			START
+24.000	clips_mp4/video_0343.mp4	24.0	30.0	Driver	moving slow			STOP
+24.000	clips_mp4/video_0343.mp4	24.0	30.0	car	flasher signal			STOP
+24.000	clips_mp4/video_0343.mp4	24.0	30.0	car	stopped			STOP

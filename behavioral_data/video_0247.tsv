@@ -1,0 +1,30 @@
+Observation id	video_0247
+
+Media file(s)
+
+Player #1	clips_mp4/video_0247.mp4
+
+Observation date	2016-05-21 21:41:10
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0247.mp4	7.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0247.mp4	7.0	30.0	pedestrian1	crossing			START
+0.033	clips_mp4/video_0247.mp4	7.0	30.0	pedestrian3	crossing			START
+0.033	clips_mp4/video_0247.mp4	7.0	30.0	pedestrian2	crossing			START
+4.505	clips_mp4/video_0247.mp4	7.0	30.0	Driver	moving slow			STOP
+4.506	clips_mp4/video_0247.mp4	7.0	30.0	Driver	slow down			START
+7.000	clips_mp4/video_0247.mp4	7.0	30.0	Driver	slow down			STOP
+7.000	clips_mp4/video_0247.mp4	7.0	30.0	pedestrian1	crossing			STOP
+7.000	clips_mp4/video_0247.mp4	7.0	30.0	pedestrian2	crossing			STOP
+7.000	clips_mp4/video_0247.mp4	7.0	30.0	pedestrian3	crossing			STOP

@@ -1,0 +1,40 @@
+Observation id	video_0043
+
+Media file(s)
+
+Player #1	clips_mp4/video_0043.mp4
+
+Observation date	2016-05-07 18:30:35
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.250	clips_mp4/video_0043.mp4	15.02	29.97	Driver	moving slow			START
+0.250	clips_mp4/video_0043.mp4	15.02	29.97	car	stopped			START
+1.496	clips_mp4/video_0043.mp4	15.02	29.97	Driver	moving slow			STOP
+1.497	clips_mp4/video_0043.mp4	15.02	29.97	Driver	slow down			START
+2.052	clips_mp4/video_0043.mp4	15.02	29.97	car	stopped			STOP
+2.053	clips_mp4/video_0043.mp4	15.02	29.97	car	moving slow			START
+2.954	clips_mp4/video_0043.mp4	15.02	29.97	car	moving slow			STOP
+2.955	clips_mp4/video_0043.mp4	15.02	29.97	car	stopped			START
+3.781	clips_mp4/video_0043.mp4	15.02	29.97	Driver	slow down			STOP
+3.782	clips_mp4/video_0043.mp4	15.02	29.97	Driver	stopped			START
+4.006	clips_mp4/video_0043.mp4	15.02	29.97	car	stopped			STOP
+4.007	clips_mp4/video_0043.mp4	15.02	29.97	car	crossing			START
+6.292	clips_mp4/video_0043.mp4	15.02	29.97	car	handwave			START
+6.292	clips_mp4/video_0043.mp4	15.02	29.97	car	look			START
+6.392	clips_mp4/video_0043.mp4	15.02	29.97	car	look			STOP
+8.907	clips_mp4/video_0043.mp4	15.02	29.97	car	handwave			STOP
+13.611	clips_mp4/video_0043.mp4	15.02	29.97	car	crossing			STOP
+14.452	clips_mp4/video_0043.mp4	15.02	29.97	Driver	stopped			STOP
+14.453	clips_mp4/video_0043.mp4	15.02	29.97	Driver	moving slow			START
+14.984	clips_mp4/video_0043.mp4	15.02	29.97	Driver	moving slow			STOP

@@ -1,0 +1,56 @@
+Observation id	video_0005
+
+Media file(s)
+
+Player #1	clips_mp4/video_0005.mp4
+
+Observation date	2016-05-05 21:00:55
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0005.mp4	8.01	29.97	Driver	walking			START
+0.033	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian1	WALKING			START
+0.033	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian2	walking			START
+0.033	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian3	looking			START
+0.033	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian3	walking			START
+0.033	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian4	walking			START
+0.100	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian1	looking			START
+0.433	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	walking			START
+0.868	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	looking			START
+1.502	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	looking			STOP
+1.800	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian6	walking			START
+1.969	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian3	looking			STOP
+2.329	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian4	walking			STOP
+2.330	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian4	clear path			START
+2.369	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian2	clear path			START
+2.700	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian1	WALKING			STOP
+2.733	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian1	CLEAR PATH			START
+2.930	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian3	walking			STOP
+2.931	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian3	clear path			START
+3.010	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian2	walking			STOP
+3.470	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	looking			START
+3.704	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian1	looking			STOP
+3.937	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	looking			STOP
+4.133	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian4	clear path			STOP
+5.094	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	walking			STOP
+5.095	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	clear path			START
+5.199	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian6	walking			STOP
+5.200	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian6	clear path			START
+5.267	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian3	clear path			STOP
+5.639	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	looking			START
+5.939	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	looking			STOP
+6.000	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian1	CLEAR PATH			STOP
+6.039	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian2	clear path			STOP
+6.867	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian5	clear path			STOP
+6.867	clips_mp4/video_0005.mp4	8.01	29.97	pedestrian6	clear path			STOP
+8.008	clips_mp4/video_0005.mp4	8.01	29.97	Driver	walking			STOP

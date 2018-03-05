@@ -1,0 +1,36 @@
+Observation id	video_0058
+
+Media file(s)
+
+Player #1	clips_mp4/video_0058.mp4
+
+Observation date	2016-05-07 19:34:18
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.203	clips_mp4/video_0058.mp4	13.01	29.97	Driver	moving slow			START
+0.203	clips_mp4/video_0058.mp4	13.01	29.97	car1	flasher signal			START
+0.203	clips_mp4/video_0058.mp4	13.01	29.97	car1	stopped			START
+0.203	clips_mp4/video_0058.mp4	13.01	29.97	car2	stopped			START
+1.517	clips_mp4/video_0058.mp4	13.01	29.97	car1	stopped			STOP
+1.518	clips_mp4/video_0058.mp4	13.01	29.97	car1	crossing			START
+3.524	clips_mp4/video_0058.mp4	13.01	29.97	car1	flasher signal			STOP
+4.057	clips_mp4/video_0058.mp4	13.01	29.97	Driver	moving slow			STOP
+4.058	clips_mp4/video_0058.mp4	13.01	29.97	Driver	stopped			START
+7.405	clips_mp4/video_0058.mp4	13.01	29.97	car2	stopped			STOP
+7.406	clips_mp4/video_0058.mp4	13.01	29.97	car2	crossing			START
+9.698	clips_mp4/video_0058.mp4	13.01	29.97	car1	crossing			STOP
+11.052	clips_mp4/video_0058.mp4	13.01	29.97	Driver	stopped			STOP
+11.053	clips_mp4/video_0058.mp4	13.01	29.97	Driver	moving slow			START
+12.434	clips_mp4/video_0058.mp4	13.01	29.97	car2	crossing			STOP
+13.013	clips_mp4/video_0058.mp4	13.01	29.97	Driver	moving slow			STOP

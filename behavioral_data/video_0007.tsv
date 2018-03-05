@@ -1,0 +1,30 @@
+Observation id	video_0007
+
+Media file(s)
+
+Player #1	clips_mp4/video_0007.mp4
+
+Observation date	2016-05-05 21:11:09
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	snow
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0007.mp4	4.0	29.97	Driver	moving fast			START
+0.033	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	 standing			START
+0.467	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	looking			START
+1.067	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	 standing			STOP
+1.100	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	crossing			START
+1.800	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	crossing			STOP
+1.833	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	STANDING			START
+2.202	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	looking			STOP
+2.667	clips_mp4/video_0007.mp4	4.0	29.97	pedestrian	STANDING			STOP
+4.004	clips_mp4/video_0007.mp4	4.0	29.97	Driver	moving fast			STOP

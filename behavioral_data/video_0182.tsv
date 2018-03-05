@@ -1,0 +1,30 @@
+Observation id	video_0182
+
+Media file(s)
+
+Player #1	clips_mp4/video_0182.mp4
+
+Observation date	2016-05-18 21:53:05
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	wet							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0182.mp4	9.0	30.0	Driver	moving slow			START
+1.609	clips_mp4/video_0182.mp4	9.0	30.0	car	moving slow			START
+3.833	clips_mp4/video_0182.mp4	9.0	30.0	Driver	moving slow			STOP
+3.834	clips_mp4/video_0182.mp4	9.0	30.0	Driver	slow down			START
+5.626	clips_mp4/video_0182.mp4	9.0	30.0	car	moving slow			STOP
+5.627	clips_mp4/video_0182.mp4	9.0	30.0	car	stopped			START
+7.500	clips_mp4/video_0182.mp4	9.0	30.0	Driver	slow down			STOP
+7.501	clips_mp4/video_0182.mp4	9.0	30.0	Driver	speed up			START
+8.276	clips_mp4/video_0182.mp4	9.0	30.0	car	stopped			STOP
+8.990	clips_mp4/video_0182.mp4	9.0	30.0	Driver	speed up			STOP

@@ -1,0 +1,50 @@
+Observation id	video_0020
+
+Media file(s)
+
+Player #1	clips_mp4/video_0020.mp4
+
+Observation date	2016-05-07 16:18:03
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0020.mp4	18.02	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian1	standing			START
+0.033	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	walking			START
+0.767	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian1	looking			START
+1.200	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			START
+1.201	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian1	looking			STOP
+1.768	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian1	 looking			START
+1.835	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian1	 looking			STOP
+1.900	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian1	standing			STOP
+2.067	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			STOP
+3.133	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	walking			STOP
+3.167	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	standing			START
+5.726	clips_mp4/video_0020.mp4	18.02	29.97	Driver	moving slow			STOP
+5.727	clips_mp4/video_0020.mp4	18.02	29.97	Driver	stopped			START
+4.000	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			START
+5.739	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			STOP
+8.107	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	standing			STOP
+8.108	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	walking			START
+8.642	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			START
+9.977	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			STOP
+11.377	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	walking			STOP
+11.378	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	standing			START
+12.112	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			START
+12.712	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	crossing			START
+12.713	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	standing			STOP
+14.414	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	looking			STOP
+16.259	clips_mp4/video_0020.mp4	18.02	29.97	Driver	stopped			STOP
+16.260	clips_mp4/video_0020.mp4	18.02	29.97	Driver	moving slow			START
+16.867	clips_mp4/video_0020.mp4	18.02	29.97	pedestrian2	crossing			STOP
+18.018	clips_mp4/video_0020.mp4	18.02	29.97	Driver	moving slow			STOP

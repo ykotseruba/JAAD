@@ -1,0 +1,32 @@
+Observation id	video_0074
+
+Media file(s)
+
+Player #1	clips_mp4/video_0074.mp4
+
+Observation date	2016-05-09 21:48:18
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0074.mp4	10.0	30.0	Driver	moving slow			START
+0.045	clips_mp4/video_0074.mp4	10.0	30.0	car	moving slow			START
+4.558	clips_mp4/video_0074.mp4	10.0	30.0	car	moving slow			STOP
+4.559	clips_mp4/video_0074.mp4	10.0	30.0	car	stopped			START
+5.149	clips_mp4/video_0074.mp4	10.0	30.0	Driver	moving slow			STOP
+5.150	clips_mp4/video_0074.mp4	10.0	30.0	Driver	stopped			START
+6.830	clips_mp4/video_0074.mp4	10.0	30.0	Driver	stopped			STOP
+6.831	clips_mp4/video_0074.mp4	10.0	30.0	Driver	moving slow			START
+7.462	clips_mp4/video_0074.mp4	10.0	30.0	car	handwave			START
+7.562	clips_mp4/video_0074.mp4	10.0	30.0	car	handwave			STOP
+8.743	clips_mp4/video_0074.mp4	10.0	30.0	car	stopped			STOP
+10.000	clips_mp4/video_0074.mp4	10.0	30.0	Driver	moving slow			STOP

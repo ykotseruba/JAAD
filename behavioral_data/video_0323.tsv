@@ -1,0 +1,28 @@
+Observation id	video_0323
+
+Media file(s)
+
+Player #1	clips_mp4/video_0323.mp4
+
+Observation date	2016-05-22 20:33:55
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	snow							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0323.mp4	8.0	30.0	Driver	moving fast			START
+0.023	clips_mp4/video_0323.mp4	8.0	30.0	car	stopped			START
+0.998	clips_mp4/video_0323.mp4	8.0	30.0	car	stopped			STOP
+0.999	clips_mp4/video_0323.mp4	8.0	30.0	car	clear path			START
+1.303	clips_mp4/video_0323.mp4	8.0	30.0	Driver	moving fast			STOP
+1.304	clips_mp4/video_0323.mp4	8.0	30.0	Driver	slow down			START
+7.911	clips_mp4/video_0323.mp4	8.0	30.0	car	clear path			STOP
+7.983	clips_mp4/video_0323.mp4	8.0	30.0	Driver	slow down			STOP

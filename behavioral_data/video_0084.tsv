@@ -1,0 +1,30 @@
+Observation id	video_0084
+
+Media file(s)
+
+Player #1	clips_mp4/video_0084.mp4
+
+Observation date	2016-05-09 22:03:17
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0084.mp4	10.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0084.mp4	10.0	30.0	pedestrian	 walking			START
+0.900	clips_mp4/video_0084.mp4	10.0	30.0	pedestrian	 looking			START
+1.267	clips_mp4/video_0084.mp4	10.0	30.0	pedestrian	 looking			STOP
+1.433	clips_mp4/video_0084.mp4	10.0	30.0	pedestrian	 walking			STOP
+1.467	clips_mp4/video_0084.mp4	10.0	30.0	pedestrian	crossing			START
+3.977	clips_mp4/video_0084.mp4	10.0	30.0	Driver	moving slow			STOP
+3.978	clips_mp4/video_0084.mp4	10.0	30.0	Driver	slow down			START
+10.000	clips_mp4/video_0084.mp4	10.0	30.0	Driver	slow down			STOP
+10.000	clips_mp4/video_0084.mp4	10.0	30.0	pedestrian	crossing			STOP

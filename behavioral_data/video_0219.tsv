@@ -1,0 +1,44 @@
+Observation id	video_0219
+
+Media file(s)
+
+Player #1	clips_mp4/video_0219.mp4
+
+Observation date	2016-05-21 19:57:15
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0219.mp4	8.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	looking			START
+0.033	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	STANDING			START
+0.033	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	looking			START
+0.033	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	STANDING			START
+0.500	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	looking			STOP
+1.215	clips_mp4/video_0219.mp4	8.0	30.0	Driver	moving fast			STOP
+1.216	clips_mp4/video_0219.mp4	8.0	30.0	Driver	slow down			START
+2.700	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	STANDING			STOP
+2.733	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	crossing			START
+2.733	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	looking			START
+3.333	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	STANDING			STOP
+3.367	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	crossing			START
+3.567	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	looking			STOP
+3.833	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	looking			STOP
+3.834	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	nod			START
+4.133	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	nod			STOP
+4.533	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	speed up			START
+5.233	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	speed up			STOP
+5.731	clips_mp4/video_0219.mp4	8.0	30.0	Driver	slow down			STOP
+5.732	clips_mp4/video_0219.mp4	8.0	30.0	Driver	moving slow			START
+8.000	clips_mp4/video_0219.mp4	8.0	30.0	Driver	moving slow			STOP
+8.000	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian1	crossing			STOP
+8.000	clips_mp4/video_0219.mp4	8.0	30.0	pedestrian2	crossing			STOP

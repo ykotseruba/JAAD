@@ -1,0 +1,36 @@
+Observation id	video_0053
+
+Media file(s)
+
+Player #1	clips_mp4/video_0053.mp4
+
+Observation date	2016-05-23 16:44:42
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0053.mp4	4.0	59.94	Driver	moving slow			START
+0.017	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian1	crossing			START
+0.017	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian1	speed up			START
+0.133	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	crossing			START
+0.217	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	looking			START
+0.433	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	speed up			START
+0.584	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	looking			STOP
+1.001	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	looking			START
+1.351	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian1	looking			START
+1.967	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian1	speed up			STOP
+2.450	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	speed up			STOP
+3.086	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian1	looking			STOP
+3.937	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian1	crossing			STOP
+3.987	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	looking			STOP
+4.004	clips_mp4/video_0053.mp4	4.0	59.94	Driver	moving slow			STOP
+4.004	clips_mp4/video_0053.mp4	4.0	59.94	pedestrian2	crossing			STOP

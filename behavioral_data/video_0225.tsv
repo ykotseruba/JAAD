@@ -1,0 +1,32 @@
+Observation id	video_0225
+
+Media file(s)
+
+Player #1	clips_mp4/video_0225.mp4
+
+Observation date	2016-05-21 20:55:20
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0225.mp4	7.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	walking			START
+2.500	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	walking			STOP
+2.533	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	crossing			START
+2.124	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	looking			START
+3.533	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	handwave			START
+4.067	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	handwave			STOP
+4.467	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	looking			STOP
+5.600	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	 looking			START
+6.267	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	 looking			STOP
+7.000	clips_mp4/video_0225.mp4	7.0	30.0	Driver	moving slow			STOP
+7.000	clips_mp4/video_0225.mp4	7.0	30.0	pedestrian	crossing			STOP

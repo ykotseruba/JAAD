@@ -1,0 +1,44 @@
+Observation id	video_0106
+
+Media file(s)
+
+Player #1	clips_mp4/video_0106.mp4
+
+Observation date	2016-05-11 17:47:46
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0106.mp4	6.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	looking			START
+0.033	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	WALKING			START
+0.033	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	WALKING			START
+1.667	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	WALKING			STOP
+1.700	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	STANDING			START
+2.700	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	STANDING			STOP
+2.733	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	WALKING			START
+2.962	clips_mp4/video_0106.mp4	6.0	30.0	Driver	moving slow			STOP
+2.963	clips_mp4/video_0106.mp4	6.0	30.0	Driver	slow down			START
+3.010	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	WALKING		STOP
+3.011	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	STANDING			START
+3.367	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	looking			START
+3.600	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	looking			STOP
+4.033	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	WALKING			STOP
+4.067	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	STANDING			START
+4.267	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	looking			START
+4.500	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	STANDING			STOP
+4.533	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	CLEAR PATH			START
+4.567	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	looking			STOP
+5.067	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	looking			STOP
+5.167	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian2	STANDING			STOP
+5.900	clips_mp4/video_0106.mp4	6.0	30.0	pedestrian1	CLEAR PATH			STOP
+6.000	clips_mp4/video_0106.mp4	6.0	30.0	Driver	slow down			STOP

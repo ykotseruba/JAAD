@@ -1,0 +1,40 @@
+Observation id	video_0329
+
+Media file(s)
+
+Player #1	clips_mp4/video_0329.mp4
+
+Observation date	2016-05-22 20:38:42
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0329.mp4	11.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	WALKING			START
+2.348	clips_mp4/video_0329.mp4	11.0	30.0	Driver	moving fast			STOP
+2.349	clips_mp4/video_0329.mp4	11.0	30.0	Driver	slow down			START
+4.167	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	looking			START
+3.267	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	WALKING			STOP
+3.300	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	STANDING			START
+5.354	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	STANDING			STOP
+5.355	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	CLEAR PATH			START
+5.442	clips_mp4/video_0329.mp4	11.0	30.0	Driver	slow down			STOP
+5.443	clips_mp4/video_0329.mp4	11.0	30.0	Driver	stopped			START
+6.900	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	looking			STOP
+8.998	clips_mp4/video_0329.mp4	11.0	30.0	Driver	stopped			STOP
+8.999	clips_mp4/video_0329.mp4	11.0	30.0	Driver	moving slow			START
+9.626	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	CLEAR PATH			STOP
+9.627	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	 standing			START
+10.300	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	looking			START
+11.000	clips_mp4/video_0329.mp4	11.0	30.0	Driver	moving slow			STOP
+11.000	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	looking			STOP
+11.000	clips_mp4/video_0329.mp4	11.0	30.0	pedestrian1	 standing			STOP

@@ -1,0 +1,40 @@
+Observation id	video_0255
+
+Media file(s)
+
+Player #1	clips_mp4/video_0255.mp4
+
+Observation date	2016-11-27 15:26:41
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0255.mp4	10.0	30.0	Driver	moving fast			START
+1.000	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	 walking			START
+1.815	clips_mp4/video_0255.mp4	10.0	30.0	Driver	moving fast			STOP
+1.816	clips_mp4/video_0255.mp4	10.0	30.0	Driver	slow down			START
+2.767	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	looking			START
+2.400	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	 walking			STOP
+2.433	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	crossing			START
+2.767	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	slow down			START
+3.667	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	looking			STOP
+4.500	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	slow down			STOP
+4.533	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	 looking			START
+4.933	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	 looking			STOP
+6.170	clips_mp4/video_0255.mp4	10.0	30.0	Driver	slow down			STOP
+6.171	clips_mp4/video_0255.mp4	10.0	30.0	Driver	moving slow			START
+8.592	clips_mp4/video_0255.mp4	10.0	30.0	Driver	moving slow			STOP
+8.593	clips_mp4/video_0255.mp4	10.0	30.0	Driver	speed up			START
+8.300	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	crossing			STOP
+8.333	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	walking			START
+9.133	clips_mp4/video_0255.mp4	10.0	30.0	pedestrian1	walking			STOP
+10.000	clips_mp4/video_0255.mp4	10.0	30.0	Driver	speed up			STOP

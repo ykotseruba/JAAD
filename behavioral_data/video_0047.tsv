@@ -1,0 +1,32 @@
+Observation id	video_0047
+
+Media file(s)
+
+Player #1	clips_mp4/video_0047.mp4
+
+Observation date	2016-05-23 16:08:12
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	cloudy
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0047.mp4	5.01	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	looking			START
+0.033	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	 walking			START
+1.226	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	 walking			STOP
+1.227	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	crossing			START
+1.842	clips_mp4/video_0047.mp4	5.01	29.97	Driver	moving slow			STOP
+1.843	clips_mp4/video_0047.mp4	5.01	29.97	Driver	slow down			START
+2.002	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	looking			STOP
+2.669	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	looking			START
+4.000	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	looking			STOP
+4.300	clips_mp4/video_0047.mp4	5.01	29.97	pedestrian	crossing			STOP
+4.994	clips_mp4/video_0047.mp4	5.01	29.97	Driver	slow down			STOP

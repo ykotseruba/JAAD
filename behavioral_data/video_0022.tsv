@@ -1,0 +1,38 @@
+Observation id	video_0022
+
+Media file(s)
+
+Player #1	clips_mp4/video_0022.mp4
+
+Observation date	2016-05-07 16:25:22
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	snow
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0022.mp4	14.01	29.97	Driver	moving slow			START
+3.333	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	STANDING			START
+6.000	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian2	looking			START
+6.000	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian2	STANDING			START
+6.006	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	looking			START
+7.609	clips_mp4/video_0022.mp4	14.01	29.97	Driver	moving slow			STOP
+7.610	clips_mp4/video_0022.mp4	14.01	29.97	Driver	slow down			START
+8.491	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	STANDING			STOP
+8.492	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	crossing			START
+8.642	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian2	looking			STOP
+8.689	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian2	STANDING			STOP
+8.690	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian2	crossing			START
+9.309	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	handwave			START
+10.043	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	handwave			STOP
+10.077	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	looking			STOP
+14.014	clips_mp4/video_0022.mp4	14.01	29.97	Driver	slow down			STOP
+14.014	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian1	crossing			STOP
+14.014	clips_mp4/video_0022.mp4	14.01	29.97	pedestrian2	crossing			STOP

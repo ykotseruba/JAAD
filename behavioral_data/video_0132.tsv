@@ -1,0 +1,36 @@
+Observation id	video_0132
+
+Media file(s)
+
+Player #1	clips_mp4/video_0132.mp4
+
+Observation date	2016-05-15 18:59:41
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	snow
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0132.mp4	10.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian1	 walking			START
+0.033	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian2	 walking			START
+0.654	clips_mp4/video_0132.mp4	10.0	30.0	Driver	moving slow			STOP
+0.655	clips_mp4/video_0132.mp4	10.0	30.0	Driver	slow down			START
+2.200	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian2	looking			START
+2.700	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian1	 looking			START
+3.267	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian1	 looking			STOP
+3.267	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian2	looking			STOP
+4.000	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian2	 walking			STOP
+4.033	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian2	crossing			START
+4.667	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian1	 walking			STOP
+4.700	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian1	crossing			START
+9.700	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian1	crossing			STOP
+9.800	clips_mp4/video_0132.mp4	10.0	30.0	pedestrian2	crossing			STOP
+10.000	clips_mp4/video_0132.mp4	10.0	30.0	Driver	slow down			STOP

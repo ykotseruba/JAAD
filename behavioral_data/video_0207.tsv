@@ -1,0 +1,24 @@
+Observation id	video_0207
+
+Media file(s)
+
+Player #1	clips_mp4/video_0207.mp4
+
+Observation date	2016-05-21 19:19:06
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0207.mp4	2.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0207.mp4	2.0	30.0	pedestrian	STANDING			START
+1.200	clips_mp4/video_0207.mp4	2.0	30.0	pedestrian	STANDING			STOP
+2.000	clips_mp4/video_0207.mp4	2.0	30.0	Driver	moving fast			STOP

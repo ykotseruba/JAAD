@@ -1,0 +1,34 @@
+Observation id	video_0200
+
+Media file(s)
+
+Player #1	clips_mp4/video_0200.mp4
+
+Observation date	2016-05-21 19:24:17
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0200.mp4	5.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian2	 walking			START
+0.533	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	STANDING			START
+0.419	clips_mp4/video_0200.mp4	5.0	30.0	Driver	moving slow			STOP
+0.420	clips_mp4/video_0200.mp4	5.0	30.0	Driver	slow down			START
+0.900	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian2	 walking			STOP
+2.200	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	looking			START
+3.001	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	STANDING			STOP
+3.002	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	clear path			START
+3.533	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	looking			STOP
+4.060	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	clear path			STOP
+4.061	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	STANDING			START
+4.567	clips_mp4/video_0200.mp4	5.0	30.0	pedestrian1	STANDING			STOP
+5.000	clips_mp4/video_0200.mp4	5.0	30.0	Driver	slow down			STOP

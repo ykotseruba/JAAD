@@ -1,0 +1,44 @@
+Observation id	video_0031
+
+Media file(s)
+
+Player #1	clips_mp4/video_0031.mp4
+
+Observation date	2016-05-09 22:20:07
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0031.mp4	10.01	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	crossing			START
+0.033	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	walking			START
+0.033	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	 looking			START
+0.167	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	 looking			STOP
+2.267	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	walking			STOP
+2.293	clips_mp4/video_0031.mp4	10.01	29.97	Driver	moving slow			STOP
+2.294	clips_mp4/video_0031.mp4	10.01	29.97	Driver	slow down			START
+2.300	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	crossing			START
+2.402	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	 looking			START
+3.133	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	 looking			STOP
+5.319	clips_mp4/video_0031.mp4	10.01	29.97	Driver	slow down			STOP
+5.320	clips_mp4/video_0031.mp4	10.01	29.97	Driver	stopped			START
+5.806	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	 looking			START
+5.933	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	crossing			STOP
+5.967	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	walking			START
+6.473	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	 looking			STOP
+7.203	clips_mp4/video_0031.mp4	10.01	29.97	Driver	stopped			STOP
+7.204	clips_mp4/video_0031.mp4	10.01	29.97	Driver	moving slow			START
+9.133	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	crossing			STOP
+9.167	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	walking			START
+9.833	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian2	walking			STOP
+9.267	clips_mp4/video_0031.mp4	10.01	29.97	pedestrian1	walking			STOP
+9.989	clips_mp4/video_0031.mp4	10.01	29.97	Driver	moving slow			STOP

@@ -1,0 +1,30 @@
+Observation id	video_0308
+
+Media file(s)
+
+Player #1	clips_mp4/video_0308.mp4
+
+Observation date	2016-05-22 19:52:37
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0308.mp4	7.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0308.mp4	7.0	30.0	pedestrian1	WALKING			START
+2.116	clips_mp4/video_0308.mp4	7.0	30.0	Driver	moving slow			STOP
+2.117	clips_mp4/video_0308.mp4	7.0	30.0	Driver	slow down			START
+2.942	clips_mp4/video_0308.mp4	7.0	30.0	pedestrian1	WALKING			STOP
+2.943	clips_mp4/video_0308.mp4	7.0	30.0	pedestrian1	CLEAR PATH			START
+4.400	clips_mp4/video_0308.mp4	7.0	30.0	pedestrian1	looking			START
+6.100	clips_mp4/video_0308.mp4	7.0	30.0	pedestrian1	looking			STOP
+6.833	clips_mp4/video_0308.mp4	7.0	30.0	pedestrian1	CLEAR PATH			STOP
+7.000	clips_mp4/video_0308.mp4	7.0	30.0	Driver	slow down			STOP

@@ -1,0 +1,42 @@
+Observation id	video_0335
+
+Media file(s)
+
+Player #1	clips_mp4/video_0335.mp4
+
+Observation date	2016-05-22 20:53:32
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0335.mp4	7.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian1	crossing			START
+0.033	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	looking			START
+0.033	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	 standing			START
+0.033	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian3	walking			START
+0.967	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian3	looking			START
+1.433	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	looking			STOP
+2.100	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	looking			START
+2.270	clips_mp4/video_0335.mp4	7.0	30.0	Driver	moving slow			STOP
+2.271	clips_mp4/video_0335.mp4	7.0	30.0	Driver	slow down			START
+2.500	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian1	crossing			STOP
+4.300	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian3	looking			STOP
+4.533	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian3	walking			STOP
+5.367	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	looking			STOP
+2.300	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	 standing			STOP
+2.333	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	walking			START
+4.200	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	walking			STOP
+4.233	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	standing			START
+5.633	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian2	standing			STOP
+6.667	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian1	walking			START
+7.000	clips_mp4/video_0335.mp4	7.0	30.0	pedestrian1	walking			STOP
+7.000	clips_mp4/video_0335.mp4	7.0	30.0	Driver	slow down			STOP

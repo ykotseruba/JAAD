@@ -1,0 +1,94 @@
+Observation id	video_0067
+
+Media file(s)
+
+Player #1	clips_mp4/video_0067.mp4
+
+Observation date	2016-05-09 19:52:45
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0067.mp4	8.01	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian1	crossing			START
+0.033	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	crossing			START
+0.033	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	crossing			START
+0.033	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	crossing			START
+0.033	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	crossing			START
+0.333	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	looking			START
+0.567	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	looking			STOP
+0.701	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	looking			START
+0.900	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian7	 walking			START
+0.934	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	looking			START
+1.134	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	looking			STOP
+1.167	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	crossing			STOP
+1.200	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	walking			START
+1.267	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian1	crossing			STOP
+1.267	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	crossing			STOP
+1.300	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	walking			START
+1.333	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	slow down			START
+1.300	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian1	walking			START
+1.533	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	crossing			STOP
+1.567	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	walking			START
+1.567	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	slow down			START
+1.671	clips_mp4/video_0067.mp4	8.01	29.97	Driver	moving slow			STOP
+1.672	clips_mp4/video_0067.mp4	8.01	29.97	Driver	slow down			START
+1.835	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	looking			START
+1.867	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	crossing			STOP
+1.900	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	walking			START
+2.102	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	looking			START
+2.202	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	looking			STOP
+2.603	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	looking			STOP
+2.762	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	slow down			STOP
+3.203	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	looking			STOP
+3.267	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	slow down			STOP
+3.433	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	walking			STOP
+3.467	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	crossing			START
+3.500	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	walking			STOP
+3.533	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	crossing			START
+3.633	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian6	walking			START
+3.667	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian1	walking			STOP
+3.800	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	walking			STOP
+3.833	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	crossing			START
+3.837	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	looking			START
+3.900	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	walking			STOP
+3.933	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	crossing			START
+4.137	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian6	looking			START
+4.271	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	looking			STOP
+4.505	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian6	looking			STOP
+5.014	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian7	 walking			STOP
+5.015	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian7	 standing			START
+5.391	clips_mp4/video_0067.mp4	8.01	29.97	Driver	slow down			STOP
+5.392	clips_mp4/video_0067.mp4	8.01	29.97	Driver	stopped			START
+5.400	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian6	walking			STOP
+5.433	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian6	crossing			START
+5.800	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	crossing			STOP
+5.833	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	walking			START
+5.967	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	crossing			STOP
+6.000	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	walking			START
+6.000	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian8	 walking			START
+6.167	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	crossing			STOP
+6.200	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	walking			START
+6.858	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian7	 standing			STOP
+6.859	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian7	crossing			START
+7.167	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian2	walking			STOP
+7.500	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	crossing			STOP
+7.533	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	walking			START
+7.633	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian8	 walking			STOP
+7.667	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian8	crossing			START
+7.900	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian3	walking			STOP
+8.008	clips_mp4/video_0067.mp4	8.01	29.97	Driver	stopped			STOP
+8.008	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian4	walking			STOP
+8.008	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian5	walking			STOP
+8.008	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian6	crossing			STOP
+8.008	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian7	crossing			STOP
+8.008	clips_mp4/video_0067.mp4	8.01	29.97	pedestrian8	crossing			STOP

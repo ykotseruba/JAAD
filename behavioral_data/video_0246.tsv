@@ -1,0 +1,36 @@
+Observation id	video_0246
+
+Media file(s)
+
+Player #1	clips_mp4/video_0246.mp4
+
+Observation date	2016-05-21 21:39:38
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	rain
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0246.mp4	8.0	30.0	Driver	moving fast			START
+0.023	clips_mp4/video_0246.mp4	8.0	30.0	car	moving fast			START
+0.351	clips_mp4/video_0246.mp4	8.0	30.0	car	flasher signal			START
+1.943	clips_mp4/video_0246.mp4	8.0	30.0	car	moving fast			STOP
+1.944	clips_mp4/video_0246.mp4	8.0	30.0	car	slow down			START
+3.073	clips_mp4/video_0246.mp4	8.0	30.0	Driver	moving fast			STOP
+3.074	clips_mp4/video_0246.mp4	8.0	30.0	Driver	slow down			START
+3.767	clips_mp4/video_0246.mp4	8.0	30.0	pedestrian	standing			START
+3.767	clips_mp4/video_0246.mp4	8.0	30.0	pedestrian	looking			START
+3.900	clips_mp4/video_0246.mp4	8.0	30.0	pedestrian	looking			STOP
+4.433	clips_mp4/video_0246.mp4	8.0	30.0	pedestrian	standing			STOP
+5.875	clips_mp4/video_0246.mp4	8.0	30.0	car	slow down			STOP
+5.876	clips_mp4/video_0246.mp4	8.0	30.0	car	speed up			START
+7.735	clips_mp4/video_0246.mp4	8.0	30.0	car	flasher signal			STOP
+7.991	clips_mp4/video_0246.mp4	8.0	30.0	Driver	slow down			STOP
+8.000	clips_mp4/video_0246.mp4	8.0	30.0	car	speed up			STOP

@@ -1,0 +1,36 @@
+Observation id	video_0287
+
+Media file(s)
+
+Player #1	clips_mp4/video_0287.mp4
+
+Observation date	2016-11-27 16:34:49
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0287.mp4	6.0	30.0	Driver	slow down			START
+0.633	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	standing			START
+0.867	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	looking			START
+1.300	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	looking			STOP
+1.433	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	standing			STOP
+1.467	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	walking			START
+2.367	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	speed up			START
+2.467	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	walking			STOP
+2.500	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	crossing			START
+1.935	clips_mp4/video_0287.mp4	6.0	30.0	Driver	slow down			STOP
+1.936	clips_mp4/video_0287.mp4	6.0	30.0	Driver	stopped			START
+4.638	clips_mp4/video_0287.mp4	6.0	30.0	Driver	stopped			STOP
+4.639	clips_mp4/video_0287.mp4	6.0	30.0	Driver	moving slow			START
+3.833	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	speed up			STOP
+5.667	clips_mp4/video_0287.mp4	6.0	30.0	pedestrian	crossing			STOP
+6.000	clips_mp4/video_0287.mp4	6.0	30.0	Driver	moving slow			STOP

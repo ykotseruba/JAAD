@@ -1,0 +1,28 @@
+Observation id	video_0220
+
+Media file(s)
+
+Player #1	clips_mp4/video_0220.mp4
+
+Observation date	2016-05-23 18:16:32
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	cloudy
+road conditions	dry							
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.015	clips_mp4/video_0220.mp4	6.0	30.0	Driver	moving slow			START
+0.021	clips_mp4/video_0220.mp4	6.0	30.0	car	moving slow			START
+1.155	clips_mp4/video_0220.mp4	6.0	30.0	Driver	moving slow			STOP
+1.156	clips_mp4/video_0220.mp4	6.0	30.0	Driver	slow down			START
+1.587	clips_mp4/video_0220.mp4	6.0	30.0	car	moving slow			STOP
+1.588	clips_mp4/video_0220.mp4	6.0	30.0	car	stopped			START
+5.708	clips_mp4/video_0220.mp4	6.0	30.0	car	stopped			STOP
+6.000	clips_mp4/video_0220.mp4	6.0	30.0	Driver	slow down			STOP

@@ -1,0 +1,40 @@
+Observation id	video_0311
+
+Media file(s)
+
+Player #1	clips_mp4/video_0311.mp4
+
+Observation date	2016-05-22 19:55:45
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.033	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian5	crossing			START
+0.000	clips_mp4/video_0311.mp4	5.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian1	crossing			START
+0.033	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian2	crossing			START
+0.033	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian3	crossing			START
+0.033	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian4	crossing			START
+1.433	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian3	crossing			STOP
+1.434	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian3	 walking			START
+1.833	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian4	crossing			STOP
+1.834	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian4	 walking			START
+2.256	clips_mp4/video_0311.mp4	5.0	30.0	Driver	moving fast			STOP
+2.257	clips_mp4/video_0311.mp4	5.0	30.0	Driver	slow down			START
+2.432	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian5	crossing			STOP
+2.433	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian5	 walking			START
+4.100	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian5	 walking			STOP
+4.100	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian3	 walking			STOP
+4.600	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian4	 walking			STOP
+4.974	clips_mp4/video_0311.mp4	5.0	30.0	Driver	slow down			STOP
+5.000	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian1	crossing			STOP
+5.000	clips_mp4/video_0311.mp4	5.0	30.0	pedestrian2	crossing			STOP

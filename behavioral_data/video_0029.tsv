@@ -1,0 +1,36 @@
+Observation id	video_0029
+
+Media file(s)
+
+Player #1	clips_mp4/video_0029.mp4
+
+Observation date	2016-05-07 17:01:00
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	afternoon
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.209	clips_mp4/video_0029.mp4	19.02	29.97	Driver	moving slow			START
+0.209	clips_mp4/video_0029.mp4	19.02	29.97	car	moving slow			START
+2.702	clips_mp4/video_0029.mp4	19.02	29.97	car	moving slow			STOP
+2.703	clips_mp4/video_0029.mp4	19.02	29.97	car	stopped			START
+2.854	clips_mp4/video_0029.mp4	19.02	29.97	Driver	moving slow			STOP
+2.855	clips_mp4/video_0029.mp4	19.02	29.97	Driver	slow down			START
+3.274	clips_mp4/video_0029.mp4	19.02	29.97	car	handwave			START
+3.374	clips_mp4/video_0029.mp4	19.02	29.97	car	handwave			STOP
+5.234	clips_mp4/video_0029.mp4	19.02	29.97	car	stopped			STOP
+5.235	clips_mp4/video_0029.mp4	19.02	29.97	car	clear path			START
+7.099	clips_mp4/video_0029.mp4	19.02	29.97	Driver	slow down			STOP
+7.100	clips_mp4/video_0029.mp4	19.02	29.97	Driver	stopped			START
+12.697	clips_mp4/video_0029.mp4	19.02	29.97	car	clear path			STOP
+15.229	clips_mp4/video_0029.mp4	19.02	29.97	Driver	stopped			STOP
+15.230	clips_mp4/video_0029.mp4	19.02	29.97	Driver	moving slow			START
+19.019	clips_mp4/video_0029.mp4	19.02	29.97	Driver	moving slow			STOP

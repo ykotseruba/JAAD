@@ -1,0 +1,46 @@
+Observation id	video_0334
+
+Media file(s)
+
+Player #1	clips_mp4/video_0334.mp4
+
+Observation date	2016-05-22 20:50:49
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0334.mp4	10.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian1	crossing			START
+0.033	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	walking			START
+0.033	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	walking			START
+2.867	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	walking			STOP
+2.900	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	STANDING			START
+2.333	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	looking			START
+2.956	clips_mp4/video_0334.mp4	10.0	30.0	Driver	moving slow			STOP
+2.957	clips_mp4/video_0334.mp4	10.0	30.0	Driver	slow down			START
+3.733	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	looking			STOP
+3.667	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	STANDING			STOP
+3.700	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	crossing			START
+7.033	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	 looking			START
+7.500	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	 looking			STOP
+7.681	clips_mp4/video_0334.mp4	10.0	30.0	Driver	slow down			STOP
+7.682	clips_mp4/video_0334.mp4	10.0	30.0	Driver	stopped			START
+8.882	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	walking			STOP
+8.883	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	 standing			START
+9.033	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	 looking			START
+9.233	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	 looking			STOP
+10.000	clips_mp4/video_0334.mp4	10.0	30.0	Driver	stopped			STOP
+7.367	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian1	crossing			STOP
+7.400	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian1	walking			START
+10.000	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian1	walking			STOP
+10.000	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian2	crossing			STOP
+10.000	clips_mp4/video_0334.mp4	10.0	30.0	pedestrian3	 standing			STOP

@@ -1,0 +1,70 @@
+Observation id	video_0026
+
+Media file(s)
+
+Player #1	clips_mp4/video_0026.mp4
+
+Observation date	2016-05-07 16:53:05
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	nighttime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.033	clips_mp4/video_0026.mp4	17.02	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	walking			START
+0.033	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian2	walking			START
+0.033	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian3	walking			START
+0.033	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	walking			START
+0.224	clips_mp4/video_0026.mp4	17.02	29.97	car	moving slow			START
+1.567	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	looking			START
+1.767	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	looking			STOP
+2.147	clips_mp4/video_0026.mp4	17.02	29.97	Driver	moving slow			STOP
+2.148	clips_mp4/video_0026.mp4	17.02	29.97	Driver	stopped			START
+2.641	clips_mp4/video_0026.mp4	17.02	29.97	car	moving slow			STOP
+2.642	clips_mp4/video_0026.mp4	17.02	29.97	car	stopped			START
+3.333	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian3	walking			STOP
+3.367	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian3	crossing			START
+3.633	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	walking			STOP
+3.667	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	crossing			START
+4.067	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	looking			START
+4.500	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	looking			STOP
+4.583	clips_mp4/video_0026.mp4	17.02	29.97	car	stopped			STOP
+4.584	clips_mp4/video_0026.mp4	17.02	29.97	car	moving slow			START
+4.733	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	walking			STOP
+4.767	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	crossing			START
+4.800	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	looking			START
+4.933	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian2	walking			STOP
+4.967	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian2	crossing			START
+5.033	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	looking			STOP
+6.764	clips_mp4/video_0026.mp4	17.02	29.97	Driver	stopped			STOP
+6.765	clips_mp4/video_0026.mp4	17.02	29.97	Driver	moving slow			START
+8.876	clips_mp4/video_0026.mp4	17.02	29.97	car	moving slow			STOP
+8.877	clips_mp4/video_0026.mp4	17.02	29.97	car	stopped			START
+10.100	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	crossing			STOP
+10.133	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	walking			START
+10.333	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian3	crossing			STOP
+10.367	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian3	walking			START
+12.233	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	crossing			STOP
+12.233	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian2	crossing			STOP
+12.267	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	walking			START
+12.267	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian2	walking			START
+13.237	clips_mp4/video_0026.mp4	17.02	29.97	Driver	moving slow			STOP
+13.238	clips_mp4/video_0026.mp4	17.02	29.97	Driver	stopped			START
+13.271	clips_mp4/video_0026.mp4	17.02	29.97	car	stopped			STOP
+13.272	clips_mp4/video_0026.mp4	17.02	29.97	car	moving slow			START
+15.076	clips_mp4/video_0026.mp4	17.02	29.97	Driver	stopped			STOP
+15.077	clips_mp4/video_0026.mp4	17.02	29.97	Driver	moving slow			START
+15.133	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian2	walking			STOP
+15.333	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian4	walking			STOP
+15.883	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian3	walking			STOP
+16.999	clips_mp4/video_0026.mp4	17.02	29.97	car	moving slow			STOP
+17.017	clips_mp4/video_0026.mp4	17.02	29.97	pedestrian1	walking			STOP
+17.017	clips_mp4/video_0026.mp4	17.02	29.97	Driver	moving slow			STOP

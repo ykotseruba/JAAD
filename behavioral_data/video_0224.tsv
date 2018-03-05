@@ -1,0 +1,50 @@
+Observation id	video_0224
+
+Media file(s)
+
+Player #1	clips_mp4/video_0224.mp4
+
+Observation date	2016-05-21 20:29:53
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0224.mp4	8.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	 walking			START
+0.033	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	 walking			START
+0.033	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian3	 walking			START
+0.033	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian4	STANDING			START
+0.033	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian5	STANDING			START
+1.367	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	 walking			STOP
+1.368	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	crossing			START
+1.300	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian4	STANDING			STOP
+1.400	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian5	STANDING			STOP
+1.631	clips_mp4/video_0224.mp4	8.0	30.0	Driver	moving slow			STOP
+1.632	clips_mp4/video_0224.mp4	8.0	30.0	Driver	slow down			START
+1.700	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian3	 walking			STOP
+1.733	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian3	crossing			START
+2.833	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	looking			START
+3.200	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	looking			STOP
+3.267	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	 looking			START
+3.700	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	 looking			STOP
+4.100	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	speed up			START
+4.567	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	 walking			STOP
+4.600	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	crossing			START
+5.500	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	speed up			STOP
+5.200	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	crossing			STOP
+5.233	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	walking			START
+6.667	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian2	walking			STOP
+5.367	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian3	crossing			STOP
+5.400	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian3	walking			START
+7.200	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian3	walking			STOP
+8.000	clips_mp4/video_0224.mp4	8.0	30.0	Driver	slow down			STOP
+8.000	clips_mp4/video_0224.mp4	8.0	30.0	pedestrian1	crossing			STOP

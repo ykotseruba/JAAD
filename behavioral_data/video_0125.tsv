@@ -1,0 +1,46 @@
+Observation id	video_0125
+
+Media file(s)
+
+Player #1	clips_mp4/video_0125.mp4
+
+Observation date	2016-05-15 18:45:50
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0125.mp4	8.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	 walking			START
+0.033	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian2	 walking			START
+0.694	clips_mp4/video_0125.mp4	8.0	30.0	Driver	moving fast			STOP
+0.695	clips_mp4/video_0125.mp4	8.0	30.0	Driver	slow down			START
+0.633	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	 walking			STOP
+0.667	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	crossing			START
+0.791	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	looking			START
+0.833	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian2	 looking			START
+1.533	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	crossing			STOP
+1.536	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	STANDING			START
+2.712	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	STANDING			STOP
+2.713	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	crossing			START
+2.767	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian2	 looking			STOP
+2.800	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	looking			STOP
+3.267	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	 looking			START
+3.400	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian2	 walking			STOP
+3.533	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	 looking			STOP
+3.533	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	nod			START
+3.867	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	nod			STOP
+5.163	clips_mp4/video_0125.mp4	8.0	30.0	Driver	slow down			STOP
+5.164	clips_mp4/video_0125.mp4	8.0	30.0	Driver	stopped			START
+5.603	clips_mp4/video_0125.mp4	8.0	30.0	Driver	stopped			STOP
+5.604	clips_mp4/video_0125.mp4	8.0	30.0	Driver	moving slow			START
+7.733	clips_mp4/video_0125.mp4	8.0	30.0	pedestrian1	crossing			STOP
+8.000	clips_mp4/video_0125.mp4	8.0	30.0	Driver	moving slow			STOP

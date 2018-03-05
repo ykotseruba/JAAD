@@ -1,0 +1,26 @@
+Observation id	video_0337
+
+Media file(s)
+
+Player #1	clips_mp4/video_0337.mp4
+
+Observation date	2016-05-22 20:56:33
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0337.mp4	4.0	30.0	Driver	moving slow			START
+2.733	clips_mp4/video_0337.mp4	4.0	30.0	pedestrian	STANDING			START
+3.133	clips_mp4/video_0337.mp4	4.0	30.0	pedestrian	looking			START
+4.000	clips_mp4/video_0337.mp4	4.0	30.0	Driver	moving slow			STOP
+4.000	clips_mp4/video_0337.mp4	4.0	30.0	pedestrian	looking			STOP
+4.000	clips_mp4/video_0337.mp4	4.0	30.0	pedestrian	STANDING			STOP

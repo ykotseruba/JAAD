@@ -1,0 +1,48 @@
+Observation id	video_0240
+
+Media file(s)
+
+Player #1	clips_mp4/video_0240.mp4
+
+Observation date	2016-05-21 21:18:59
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	rain
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0240.mp4	7.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	crossing			START
+0.033	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	crossing			START
+0.967	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	slow down			START
+0.967	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			START
+0.967	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	slow down			START
+1.436	clips_mp4/video_0240.mp4	7.0	30.0	Driver	moving slow			STOP
+1.437	clips_mp4/video_0240.mp4	7.0	30.0	Driver	slow down			START
+1.533	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	looking			START
+2.167	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	slow down			STOP
+2.200	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	slow down			STOP
+2.467	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			STOP
+3.000	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			START
+3.033	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	looking			STOP
+3.533	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			STOP
+3.700	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	speed up			START
+4.170	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	speed up			START
+5.400	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			START
+6.067	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			STOP
+6.867	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			START
+7.000	clips_mp4/video_0240.mp4	7.0	30.0	Driver	slow down			STOP
+7.000	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	looking			STOP
+6.600	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	crossing			STOP
+6.600	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	speed up			STOP
+6.633	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	walking			START
+7.000	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian1	walking			STOP
+7.000	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	speed up			STOP
+7.000	clips_mp4/video_0240.mp4	7.0	30.0	pedestrian2	crossing			STOP

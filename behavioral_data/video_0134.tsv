@@ -1,0 +1,54 @@
+Observation id	video_0134
+
+Media file(s)
+
+Player #1	clips_mp4/video_0134.mp4
+
+Observation date	2016-05-15 19:13:24
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0134.mp4	20.0	30.0	Driver	moving slow			START
+0.467	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	 walking			START
+0.700	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	 walking			START
+3.200	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	looking			START
+3.767	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	looking			STOP
+6.300	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	 walking			STOP
+6.333	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	 standing			START
+5.533	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	looking			START
+5.367	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	 walking			STOP
+5.400	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	slow down			START
+6.600	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	looking			START
+7.467	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	slow down			STOP
+7.500	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	walking			START
+7.833	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	looking			STOP
+7.861	clips_mp4/video_0134.mp4	20.0	30.0	Driver	moving slow			STOP
+7.862	clips_mp4/video_0134.mp4	20.0	30.0	Driver	stopped			START
+7.867	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	looking			STOP
+9.367	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	looking			START
+9.067	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	 standing			STOP
+9.100	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	walking			START
+9.800	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	walking			STOP
+9.833	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	crossing			START
+10.433	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	walking			STOP
+10.467	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	crossing			START
+10.104	clips_mp4/video_0134.mp4	20.0	30.0	Driver	stopped			STOP
+10.105	clips_mp4/video_0134.mp4	20.0	30.0	Driver	moving slow			START
+10.367	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	looking			STOP
+12.700	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	crossing			STOP
+12.733	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	walking			START
+14.000	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	crossing			STOP
+14.033	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	walking			START
+20.000	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian1	walking			STOP
+20.000	clips_mp4/video_0134.mp4	20.0	30.0	pedestrian2	walking			STOP
+20.000	clips_mp4/video_0134.mp4	20.0	30.0	Driver	moving slow			STOP

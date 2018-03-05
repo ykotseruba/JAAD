@@ -1,0 +1,46 @@
+Observation id	video_0188
+
+Media file(s)
+
+Player #1	clips_mp4/video_0188.mp4
+
+Observation date	2016-05-18 22:06:46
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0188.mp4	7.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian1	 standing			START
+0.033	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	 standing			START
+0.033	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian3	looking			START
+0.033	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian3	 walking			START
+0.442	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	looking			START
+1.067	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	looking			STOP
+2.137	clips_mp4/video_0188.mp4	7.0	30.0	Driver	moving slow			STOP
+2.138	clips_mp4/video_0188.mp4	7.0	30.0	Driver	slow down			START
+3.321	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian1	 standing			STOP
+3.322	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian1	clear path			START
+3.503	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	 standing			STOP
+3.504	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	clear path			START
+3.657	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian3	 walking			STOP
+3.658	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian3	clear path			START
+4.044	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	looking			START
+4.600	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian3	looking			STOP
+4.733	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	looking			STOP
+5.900	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian1	looking			START
+6.067	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	looking			START
+6.767	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	looking			STOP
+7.000	clips_mp4/video_0188.mp4	7.0	30.0	Driver	slow down			STOP
+7.000	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian1	clear path			STOP
+7.000	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian1	looking			STOP
+7.000	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian2	clear path			STOP
+7.000	clips_mp4/video_0188.mp4	7.0	30.0	pedestrian3	clear path			STOP

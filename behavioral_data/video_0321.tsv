@@ -1,0 +1,24 @@
+Observation id	video_0321
+
+Media file(s)
+
+Player #1	clips_mp4/video_0321.mp4
+
+Observation date	2016-05-22 20:18:35
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0321.mp4	4.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0321.mp4	4.0	30.0	pedestrian	crossing			START
+4.000	clips_mp4/video_0321.mp4	4.0	30.0	Driver	moving fast			STOP
+4.000	clips_mp4/video_0321.mp4	4.0	30.0	pedestrian	crossing			STOP

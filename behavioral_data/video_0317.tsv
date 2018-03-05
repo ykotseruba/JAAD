@@ -1,0 +1,46 @@
+Observation id	video_0317
+
+Media file(s)
+
+Player #1	clips_mp4/video_0317.mp4
+
+Observation date	2016-05-22 20:08:56
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	snow
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0317.mp4	9.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian1	crossing			START
+0.300	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian2	crossing			START
+2.233	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian3	 walking			START
+3.733	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian4	walking			START
+4.367	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian1	 looking			START
+4.518	clips_mp4/video_0317.mp4	9.0	30.0	Driver	moving fast			STOP
+4.518	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian3	 walking			STOP
+4.519	clips_mp4/video_0317.mp4	9.0	30.0	Driver	slow down			START
+4.519	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian3	crossing			START
+4.600	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian1	 looking			STOP
+4.900	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian4	walking			STOP
+4.933	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian4	crossing			START
+5.333	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian1	crossing			STOP
+5.367	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian1	 walking			START
+5.433	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian2	crossing			STOP
+5.467	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian2	 walking			START
+6.267	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian3	speed up			START
+6.500	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian4	speed up			START
+8.533	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian1	 walking			STOP
+8.600	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian2	 walking			STOP
+9.000	clips_mp4/video_0317.mp4	9.0	30.0	Driver	slow down			STOP
+9.000	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian3	crossing			STOP
+9.000	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian3	speed up			STOP
+9.000	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian4	crossing			STOP
+9.000	clips_mp4/video_0317.mp4	9.0	30.0	pedestrian4	speed up			STOP

@@ -1,0 +1,44 @@
+Observation id	video_0309
+
+Media file(s)
+
+Player #1	clips_mp4/video_0309.mp4
+
+Observation date	2016-05-23 18:53:04
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0309.mp4	3.0	30.0	Driver	moving fast			START
+0.018	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian3	crossing			START
+0.018	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian4	 standing			START
+0.018	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian5	looking			START
+0.021	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian1	looking			START
+0.021	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian1	 standing			START
+0.021	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian2	crossing			START
+0.021	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian5	STANDING			START
+0.024	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian7	 walking			START
+0.033	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian6	 walking			START
+0.033	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian8	 walking			START
+0.615	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian4	looking			START
+0.630	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian1	looking			STOP
+0.667	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian1	 standing			STOP
+1.533	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian3	crossing			STOP
+1.667	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian2	crossing			STOP
+2.483	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian5	looking			STOP
+2.516	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian4	 standing			STOP
+2.533	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian6	 walking			STOP
+2.567	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian4	looking			STOP
+2.600	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian8	 walking			STOP
+2.700	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian5	STANDING			STOP
+2.984	clips_mp4/video_0309.mp4	3.0	30.0	pedestrian7	 walking			STOP
+2.996	clips_mp4/video_0309.mp4	3.0	30.0	Driver	moving fast			STOP

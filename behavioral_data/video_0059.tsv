@@ -1,0 +1,40 @@
+Observation id	video_0059
+
+Media file(s)
+
+Player #1	clips_mp4/video_0059.mp4
+
+Observation date	2016-05-07 19:37:57
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	plaza
+weather	cloudy
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0059.mp4	4.0	29.97	Driver	moving slow			START
+0.033	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	walking		START
+0.033	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian2	 walking			START
+0.701	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	looking			START
+0.734	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian3	 walking			START
+0.818	clips_mp4/video_0059.mp4	4.0	29.97	Driver	moving slow			STOP
+0.819	clips_mp4/video_0059.mp4	4.0	29.97	Driver	slow down			START
+1.000	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	looking			STOP
+1.223	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	slow down			START
+1.401	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian2	looking			START
+1.835	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	looking			START
+2.236	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian2	looking			STOP
+2.269	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	looking			STOP
+2.409	clips_mp4/video_0059.mp4	4.0	29.97	Driver	slow down			STOP
+2.410	clips_mp4/video_0059.mp4	4.0	29.97	Driver	moving slow			START
+2.667	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	slow down			STOP
+2.667	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian1	walking			STOP
+3.000	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian3	 walking			STOP
+3.133	clips_mp4/video_0059.mp4	4.0	29.97	pedestrian2	 walking			STOP
+4.004	clips_mp4/video_0059.mp4	4.0	29.97	Driver	moving slow			STOP

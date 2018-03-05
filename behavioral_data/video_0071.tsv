@@ -1,0 +1,48 @@
+Observation id	video_0071
+
+Media file(s)
+
+Player #1	clips_mp4/video_0071.mp4
+
+Observation date	2016-05-09 21:32:40
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	wet
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0071.mp4	11.0	30.0	Driver	moving slow			START
+0.033	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian1	 standing			START
+0.033	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	looking			START
+0.033	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	 walking			START
+0.500	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	looking			STOP
+2.600	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	looking			START
+4.200	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	looking			STOP
+4.600	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	 walking			STOP
+4.633	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	standing			START
+5.267	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	standing			STOP
+5.300	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	crossing			START
+5.400	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	 looking			START
+5.900	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	 looking			STOP
+6.500	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	slow down			START
+6.467	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	 looking			START
+6.867	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	 looking			STOP
+6.933	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	slow down			STOP
+7.545	clips_mp4/video_0071.mp4	11.0	30.0	Driver	moving slow			STOP
+7.546	clips_mp4/video_0071.mp4	11.0	30.0	Driver	stopped			START
+8.300	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian1	handwave			START
+8.333	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian1	looking			START
+9.055	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian1	looking			STOP
+9.900	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian2	crossing			STOP
+10.067	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian1	handwave			STOP
+10.221	clips_mp4/video_0071.mp4	11.0	30.0	Driver	stopped			STOP
+10.222	clips_mp4/video_0071.mp4	11.0	30.0	Driver	moving slow			START
+11.000	clips_mp4/video_0071.mp4	11.0	30.0	Driver	moving slow			STOP
+11.000	clips_mp4/video_0071.mp4	11.0	30.0	pedestrian1	 standing			STOP

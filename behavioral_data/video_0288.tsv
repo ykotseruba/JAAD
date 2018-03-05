@@ -1,0 +1,30 @@
+Observation id	video_0288
+
+Media file(s)
+
+Player #1	clips_mp4/video_0288.mp4
+
+Observation date	2016-11-27 16:41:26
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0288.mp4	4.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0288.mp4	4.0	30.0	pedestrian	WALKING			START
+0.942	clips_mp4/video_0288.mp4	4.0	30.0	Driver	moving fast			STOP
+0.943	clips_mp4/video_0288.mp4	4.0	30.0	Driver	slow down			START
+2.280	clips_mp4/video_0288.mp4	4.0	30.0	pedestrian	WALKING			STOP
+2.281	clips_mp4/video_0288.mp4	4.0	30.0	pedestrian	CLEAR PATH			START
+2.700	clips_mp4/video_0288.mp4	4.0	30.0	pedestrian	 looking			START
+2.900	clips_mp4/video_0288.mp4	4.0	30.0	pedestrian	 looking			STOP
+4.000	clips_mp4/video_0288.mp4	4.0	30.0	Driver	slow down			STOP
+4.000	clips_mp4/video_0288.mp4	4.0	30.0	pedestrian	CLEAR PATH			STOP

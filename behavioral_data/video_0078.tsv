@@ -1,0 +1,48 @@
+Observation id	video_0078
+
+Media file(s)
+
+Player #1	clips_mp4/video_0078.mp4
+
+Observation date	2016-05-23 16:50:19
+
+Description
+
+Time offset (s)	0.0
+
+independent variables
+variable	value
+time_of_day	daytime
+location	street
+weather	clear
+road conditions	dry
+
+Time	Media file path	Media total length	FPS	Subject	Behavior	Comment	Status
+0.000	clips_mp4/video_0078.mp4	10.0	30.0	Driver	moving fast			START
+0.033	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	walking			START
+0.667	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	walking			STOP
+0.700	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	 standing			START
+0.033	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	 standing			START
+0.100	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	looking			START
+0.467	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	looking			STOP
+0.900	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	looking			START
+1.067	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	looking			START
+1.205	clips_mp4/video_0078.mp4	10.0	30.0	Driver	moving fast			STOP
+1.206	clips_mp4/video_0078.mp4	10.0	30.0	Driver	slow down			START
+2.033	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	looking			STOP
+2.133	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	looking			STOP
+2.166	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	 standing			STOP
+2.166	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	 standing			STOP
+2.167	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	crossing			START
+2.167	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	crossing			START
+4.128	clips_mp4/video_0078.mp4	10.0	30.0	Driver	slow down			STOP
+4.129	clips_mp4/video_0078.mp4	10.0	30.0	Driver	moving slow			START
+8.142	clips_mp4/video_0078.mp4	10.0	30.0	Driver	moving slow			STOP
+8.143	clips_mp4/video_0078.mp4	10.0	30.0	Driver	speed up			START
+8.400	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	crossing			STOP
+8.433	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	walking			START
+8.433	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	crossing			STOP
+8.467	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	walking			START
+9.267	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian1	walking			STOP
+9.367	clips_mp4/video_0078.mp4	10.0	30.0	pedestrian2	walking			STOP
+10.000	clips_mp4/video_0078.mp4	10.0	30.0	Driver	speed up			STOP
