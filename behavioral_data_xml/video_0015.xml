@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0015.mp4" id="video_0015" length_sec="14.01" num_frames="420">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="rain"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <car/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="17" end_time="0.56723" id="moving slow" start_frame="1" start_time="0"/>
+         <action end_frame="54" end_time="1.8018" id="decelerating" start_frame="18" start_time="0.6006"/>
+         <action end_frame="117" end_time="3.9039" id="stopped" start_frame="55" start_time="1.8352"/>
+         <action end_frame="194" end_time="6.4731" id="accelerating" start_frame="118" start_time="3.9373"/>
+         <action end_frame="249" end_time="8.3083" id="decelerating" start_frame="195" start_time="6.5065"/>
+         <action end_frame="340" end_time="11.3447" id="accelerating" start_frame="250" start_time="8.3417"/>
+         <action end_frame="420" end_time="14.014" id="decelerating" start_frame="341" start_time="11.378"/>
+      </Driver>
+   </actions>
+</video>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0044.mp4" id="video_0044" length_sec="7.01" num_frames="210">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="14" end_time="0.46713" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="121" end_time="4.0374" id="decelerating" start_frame="15" start_time="0.5005"/>
+         <action end_frame="142" end_time="4.7381" id="stopped" start_frame="122" start_time="4.0707"/>
+         <action end_frame="210" end_time="7.007" id="accelerating" start_frame="143" start_time="4.7714"/>
+      </Driver>
+      <pedestrian>
+         <action end_frame="75" end_time="2.502" id="walking" start_frame="1" start_time="0.033"/>
+         <action end_frame="53" end_time="1.767" id="looking" start_frame="48" start_time="1.6"/>
+         <action end_frame="210" end_time="7.007" id="crossing" start_frame="76" start_time="2.5359"/>
+      </pedestrian>
+   </actions>
+</video>

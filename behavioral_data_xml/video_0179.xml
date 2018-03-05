@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="30" filename="video_0179.mp4" id="video_0179" length_sec="11" num_frames="330">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="rain"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian1/>
+      <pedestrian2/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="10" end_time="0.33333" id="moving slow" start_frame="1" start_time="0"/>
+         <action end_frame="141" end_time="4.7" id="decelerating" start_frame="11" start_time="0.36667"/>
+         <action end_frame="147" end_time="4.9" id="stopped" start_frame="142" start_time="4.7333"/>
+         <action end_frame="202" end_time="6.7333" id="accelerating" start_frame="148" start_time="4.9333"/>
+         <action end_frame="224" end_time="7.4667" id="decelerating" start_frame="203" start_time="6.7667"/>
+         <action end_frame="248" end_time="8.2667" id="accelerating" start_frame="225" start_time="7.5"/>
+         <action end_frame="292" end_time="9.7333" id="decelerating" start_frame="249" start_time="8.3"/>
+         <action end_frame="330" end_time="11" id="accelerating" start_frame="293" start_time="9.7667"/>
+      </Driver>
+      <pedestrian1>
+         <action end_frame="40" end_time="1.335" id="walking" start_frame="1" start_time="0.033"/>
+         <action end_frame="51" end_time="1.7" id="looking" start_frame="19" start_time="0.633"/>
+         <action end_frame="274" end_time="9.133" id="crossing" start_frame="41" start_time="1.3667"/>
+      </pedestrian1>
+      <pedestrian2>
+         <action end_frame="96" end_time="3.2" id="standing" start_frame="1" start_time="0.033"/>
+         <action end_frame="90" end_time="3" id="looking" start_frame="31" start_time="1.033"/>
+         <action end_frame="135" end_time="4.5" id="walking" start_frame="97" start_time="3.233"/>
+         <action end_frame="330" end_time="11" id="crossing" start_frame="136" start_time="4.533"/>
+         <action end_frame="256" end_time="8.533" id="looking" start_frame="241" start_time="8.033"/>
+      </pedestrian2>
+   </actions>
+</video>

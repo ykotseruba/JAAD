@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0067.mp4" id="video_0067" length_sec="8.01" num_frames="240">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian1/>
+      <pedestrian2/>
+      <pedestrian3/>
+      <pedestrian4/>
+      <pedestrian5/>
+      <pedestrian6/>
+      <pedestrian7/>
+      <pedestrian8/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="9" end_time="0.3003" id="moving slow" start_frame="1" start_time="0"/>
+         <action end_frame="83" end_time="2.7694" id="decelerating" start_frame="10" start_time="0.33367"/>
+         <action end_frame="92" end_time="3.0697" id="accelerating" start_frame="84" start_time="2.8028"/>
+         <action end_frame="131" end_time="4.371" id="decelerating" start_frame="93" start_time="3.1031"/>
+         <action end_frame="240" end_time="8.008" id="stopped" start_frame="132" start_time="4.4044"/>
+      </Driver>
+      <pedestrian1>
+         <action end_frame="38" end_time="1.267" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="110" end_time="3.667" id="walking" start_frame="39" start_time="1.3"/>
+      </pedestrian1>
+      <pedestrian2>
+         <action end_frame="38" end_time="1.267" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="17" end_time="0.567" id="looking" start_frame="10" start_time="0.333"/>
+         <action end_frame="96" end_time="3.203" id="looking" start_frame="28" start_time="0.934"/>
+         <action end_frame="105" end_time="3.5" id="walking" start_frame="39" start_time="1.3"/>
+         <action end_frame="83" end_time="2.762" id="slow down" start_frame="40" start_time="1.333"/>
+         <action end_frame="174" end_time="5.8" id="crossing" start_frame="106" start_time="3.533"/>
+         <action end_frame="128" end_time="4.271" id="looking" start_frame="115" start_time="3.837"/>
+         <action end_frame="215" end_time="7.167" id="walking" start_frame="175" start_time="5.833"/>
+      </pedestrian2>
+      <pedestrian3>
+         <action end_frame="46" end_time="1.533" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="117" end_time="3.9" id="walking" start_frame="47" start_time="1.567"/>
+         <action end_frame="98" end_time="3.267" id="slow down" start_frame="47" start_time="1.567"/>
+         <action end_frame="185" end_time="6.167" id="crossing" start_frame="118" start_time="3.933"/>
+         <action end_frame="237" end_time="7.9" id="walking" start_frame="186" start_time="6.2"/>
+      </pedestrian3>
+      <pedestrian4>
+         <action end_frame="56" end_time="1.867" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="34" end_time="1.134" id="looking" start_frame="21" start_time="0.701"/>
+         <action end_frame="66" end_time="2.202" id="looking" start_frame="55" start_time="1.835"/>
+         <action end_frame="103" end_time="3.433" id="walking" start_frame="57" start_time="1.9"/>
+         <action end_frame="179" end_time="5.967" id="crossing" start_frame="104" start_time="3.467"/>
+         <action end_frame="240" end_time="8.008" id="walking" start_frame="180" start_time="6"/>
+      </pedestrian4>
+      <pedestrian5>
+         <action end_frame="35" end_time="1.167" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="114" end_time="3.8" id="walking" start_frame="36" start_time="1.2"/>
+         <action end_frame="78" end_time="2.603" id="looking" start_frame="63" start_time="2.102"/>
+         <action end_frame="225" end_time="7.5" id="crossing" start_frame="115" start_time="3.833"/>
+         <action end_frame="240" end_time="8.008" id="walking" start_frame="226" start_time="7.533"/>
+      </pedestrian5>
+      <pedestrian6>
+         <action end_frame="162" end_time="5.4" id="walking" start_frame="109" start_time="3.633"/>
+         <action end_frame="135" end_time="4.505" id="looking" start_frame="124" start_time="4.137"/>
+         <action end_frame="240" end_time="8.008" id="crossing" start_frame="163" start_time="5.433"/>
+      </pedestrian6>
+      <pedestrian7>
+         <action end_frame="150" end_time="5.014" id="walking" start_frame="27" start_time="0.9"/>
+         <action end_frame="206" end_time="6.858" id="standing" start_frame="151" start_time="5.0384"/>
+         <action end_frame="240" end_time="8.008" id="crossing" start_frame="207" start_time="6.9069"/>
+      </pedestrian7>
+      <pedestrian8>
+         <action end_frame="229" end_time="7.633" id="walking" start_frame="180" start_time="6"/>
+         <action end_frame="240" end_time="8.008" id="crossing" start_frame="230" start_time="7.667"/>
+      </pedestrian8>
+   </actions>
+</video>

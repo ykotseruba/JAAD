@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0066.mp4" id="video_0066" length_sec="11.01" num_frames="330">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="clear"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="9" end_time="0.3003" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="34" end_time="1.1345" id="decelerating" start_frame="10" start_time="0.33367"/>
+         <action end_frame="59" end_time="1.9686" id="accelerating" start_frame="35" start_time="1.1678"/>
+         <action end_frame="90" end_time="3.003" id="decelerating" start_frame="60" start_time="2.002"/>
+         <action end_frame="100" end_time="3.3367" id="accelerating" start_frame="91" start_time="3.0364"/>
+         <action end_frame="149" end_time="4.9716" id="decelerating" start_frame="101" start_time="3.37"/>
+         <action end_frame="182" end_time="6.0727" id="stopped" start_frame="150" start_time="5.005"/>
+         <action end_frame="279" end_time="9.3093" id="accelerating" start_frame="183" start_time="6.1061"/>
+         <action end_frame="323" end_time="10.7774" id="decelerating" start_frame="280" start_time="9.3427"/>
+         <action end_frame="330" end_time="11.011" id="accelerating" start_frame="324" start_time="10.8108"/>
+      </Driver>
+      <pedestrian>
+         <action end_frame="91" end_time="3.043" id="walking" start_frame="46" start_time="1.535"/>
+         <action end_frame="119" end_time="3.971" id="looking" start_frame="51" start_time="1.702"/>
+         <action end_frame="252" end_time="8.4" id="crossing" start_frame="92" start_time="3.0697"/>
+         <action end_frame="150" end_time="5.005" id="handwave" start_frame="126" start_time="4.204"/>
+         <action end_frame="152" end_time="5.072" id="looking" start_frame="138" start_time="4.605"/>
+         <action end_frame="330" end_time="11.011" id="walking" start_frame="253" start_time="8.433"/>
+      </pedestrian>
+   </actions>
+</video>

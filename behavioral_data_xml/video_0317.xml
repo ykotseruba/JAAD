@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="30" filename="video_0317.mp4" id="video_0317" length_sec="9" num_frames="270">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian1/>
+      <pedestrian2/>
+      <pedestrian3/>
+      <pedestrian4/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="17" end_time="0.56667" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="96" end_time="3.2" id="accelerating" start_frame="18" start_time="0.6"/>
+         <action end_frame="209" end_time="6.9667" id="decelerating" start_frame="97" start_time="3.2333"/>
+         <action end_frame="270" end_time="9" id="accelerating" start_frame="210" start_time="7"/>
+      </Driver>
+      <pedestrian1>
+         <action end_frame="160" end_time="5.333" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="138" end_time="4.6" id="looking" start_frame="131" start_time="4.367"/>
+         <action end_frame="256" end_time="8.533" id="walking" start_frame="161" start_time="5.367"/>
+      </pedestrian1>
+      <pedestrian2>
+         <action end_frame="163" end_time="5.433" id="crossing" start_frame="9" start_time="0.3"/>
+         <action end_frame="258" end_time="8.6" id="walking" start_frame="164" start_time="5.467"/>
+      </pedestrian2>
+      <pedestrian3>
+         <action end_frame="136" end_time="4.518" id="walking" start_frame="67" start_time="2.233"/>
+         <action end_frame="270" end_time="9" id="crossing" start_frame="137" start_time="4.5667"/>
+         <action end_frame="270" end_time="9" id="speed up" start_frame="188" start_time="6.267"/>
+      </pedestrian3>
+      <pedestrian4>
+         <action end_frame="147" end_time="4.9" id="walking" start_frame="112" start_time="3.733"/>
+         <action end_frame="270" end_time="9" id="crossing" start_frame="148" start_time="4.933"/>
+         <action end_frame="270" end_time="9" id="speed up" start_frame="195" start_time="6.5"/>
+      </pedestrian4>
+   </actions>
+</video>

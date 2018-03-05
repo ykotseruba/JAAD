@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="30" filename="video_0345.mp4" id="video_0345" length_sec="5" num_frames="150">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="clear"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian1/>
+      <pedestrian2/>
+      <pedestrian3/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="14" end_time="0.46667" id="moving slow" start_frame="1" start_time="0"/>
+         <action end_frame="84" end_time="2.8" id="decelerating" start_frame="15" start_time="0.5"/>
+         <action end_frame="114" end_time="3.8" id="accelerating" start_frame="85" start_time="2.8333"/>
+         <action end_frame="150" end_time="5" id="decelerating" start_frame="115" start_time="3.8333"/>
+      </Driver>
+      <pedestrian1>
+         <action end_frame="57" end_time="1.9" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="129" end_time="4.3" id="walking" start_frame="58" start_time="1.933"/>
+      </pedestrian1>
+      <pedestrian2>
+         <action end_frame="82" end_time="2.733" id="crossing" start_frame="1" start_time="0.033"/>
+         <action end_frame="137" end_time="4.567" id="walking" start_frame="83" start_time="2.767"/>
+      </pedestrian2>
+      <pedestrian3>
+         <action end_frame="150" end_time="5" id="STANDING" start_frame="1" start_time="0.033"/>
+         <action end_frame="150" end_time="5" id="looking" start_frame="38" start_time="1.267"/>
+      </pedestrian3>
+   </actions>
+</video>

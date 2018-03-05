@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0064.mp4" id="video_0064" length_sec="10.01" num_frames="300">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="clear"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian1/>
+      <pedestrian2/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="4" end_time="0.13347" id="moving slow" start_frame="1" start_time="0"/>
+         <action end_frame="14" end_time="0.46713" id="decelerating" start_frame="5" start_time="0.16683"/>
+         <action end_frame="31" end_time="1.0344" id="accelerating" start_frame="15" start_time="0.5005"/>
+         <action end_frame="139" end_time="4.638" id="decelerating" start_frame="32" start_time="1.0677"/>
+         <action end_frame="151" end_time="5.0384" id="accelerating" start_frame="140" start_time="4.6713"/>
+         <action end_frame="166" end_time="5.5389" id="decelerating" start_frame="152" start_time="5.0717"/>
+         <action end_frame="192" end_time="6.4064" id="accelerating" start_frame="167" start_time="5.5722"/>
+         <action end_frame="234" end_time="7.8078" id="decelerating" start_frame="193" start_time="6.4398"/>
+         <action end_frame="300" end_time="10.01" id="accelerating" start_frame="235" start_time="7.8412"/>
+      </Driver>
+      <pedestrian1>
+         <action end_frame="117" end_time="3.904" id="looking" start_frame="1" start_time="0.033"/>
+         <action end_frame="70" end_time="2.333" id="walking" start_frame="1" start_time="0.033"/>
+         <action end_frame="211" end_time="7.033" id="standing" start_frame="71" start_time="2.367"/>
+      </pedestrian1>
+      <pedestrian2>
+         <action end_frame="92" end_time="3.054" id="walking" start_frame="1" start_time="0.033"/>
+         <action end_frame="193" end_time="6.432" id="crossing" start_frame="93" start_time="3.1031"/>
+         <action end_frame="282" end_time="9.4" id="walking" start_frame="194" start_time="6.4731"/>
+      </pedestrian2>
+   </actions>
+</video>

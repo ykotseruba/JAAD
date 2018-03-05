@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="30" filename="video_0153.mp4" id="video_0153" length_sec="11" num_frames="330">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <car/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="14" end_time="0.46667" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="85" end_time="2.8333" id="decelerating" start_frame="15" start_time="0.5"/>
+         <action end_frame="86" end_time="2.8667" id="stopped" start_frame="86" start_time="2.8667"/>
+         <action end_frame="105" end_time="3.5" id="accelerating" start_frame="87" start_time="2.9"/>
+         <action end_frame="132" end_time="4.4" id="decelerating" start_frame="106" start_time="3.5333"/>
+         <action end_frame="162" end_time="5.4" id="accelerating" start_frame="133" start_time="4.4333"/>
+         <action end_frame="204" end_time="6.8" id="decelerating" start_frame="163" start_time="5.4333"/>
+         <action end_frame="268" end_time="8.9333" id="accelerating" start_frame="205" start_time="6.8333"/>
+         <action end_frame="292" end_time="9.7333" id="decelerating" start_frame="269" start_time="8.9667"/>
+         <action end_frame="330" end_time="11" id="accelerating" start_frame="293" start_time="9.7667"/>
+      </Driver>
+   </actions>
+</video>

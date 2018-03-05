@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0013.mp4" id="video_0013" length_sec="5.01" num_frames="150">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="n/a"/>
+      <location val="indoor"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <car/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="17" end_time="0.56723" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="105" end_time="3.5035" id="decelerating" start_frame="18" start_time="0.6006"/>
+         <action end_frame="150" end_time="5.005" id="accelerating" start_frame="106" start_time="3.5369"/>
+      </Driver>
+   </actions>
+</video>

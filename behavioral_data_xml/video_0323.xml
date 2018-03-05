@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="30" filename="video_0323.mp4" id="video_0323" length_sec="8" num_frames="240">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <car/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="14" end_time="0.46667" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="157" end_time="5.2333" id="decelerating" start_frame="15" start_time="0.5"/>
+         <action end_frame="192" end_time="6.4" id="accelerating" start_frame="158" start_time="5.2667"/>
+         <action end_frame="240" end_time="8" id="decelerating" start_frame="193" start_time="6.4333"/>
+      </Driver>
+   </actions>
+</video>

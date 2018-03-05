@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="29.97" filename="video_0055.mp4" id="video_0055" length_sec="7.01" num_frames="210">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="plaza"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian1/>
+      <pedestrian2/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="14" end_time="0.46713" id="moving slow" start_frame="1" start_time="0"/>
+         <action end_frame="66" end_time="2.2022" id="decelerating" start_frame="15" start_time="0.5005"/>
+         <action end_frame="210" end_time="7.007" id="accelerating" start_frame="67" start_time="2.2356"/>
+      </Driver>
+      <pedestrian1>
+         <action end_frame="54" end_time="1.8" id="walking" start_frame="1" start_time="0.033"/>
+         <action end_frame="124" end_time="4.137" id="looking" start_frame="21" start_time="0.701"/>
+         <action end_frame="53" end_time="1.767" id="slow down" start_frame="33" start_time="1.087"/>
+         <action end_frame="138" end_time="4.6" id="standing" start_frame="55" start_time="1.8352"/>
+         <action end_frame="80" end_time="2.669" id="handwave" start_frame="63" start_time="2.102"/>
+         <action end_frame="177" end_time="5.9" id="looking" start_frame="141" start_time="4.705"/>
+         <action end_frame="177" end_time="5.9" id="walking" start_frame="139" start_time="4.633"/>
+      </pedestrian1>
+      <pedestrian2>
+         <action end_frame="197" end_time="6.567" id="standing" start_frame="107" start_time="3.57"/>
+      </pedestrian2>
+   </actions>
+</video>

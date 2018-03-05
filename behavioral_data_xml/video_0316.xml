@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<video FPS="30" filename="video_0316.mp4" id="video_0316" length_sec="4" num_frames="120">
+   <tags>
+      <time_of_day val="daytime"/>
+      <weather val="cloudy"/>
+      <location val="street"/>
+   </tags>
+   <subjects>
+      <Driver/>
+      <pedestrian/>
+   </subjects>
+   <actions>
+      <Driver>
+         <action end_frame="17" end_time="0.56667" id="moving fast" start_frame="1" start_time="0"/>
+         <action end_frame="120" end_time="4" id="accelerating" start_frame="18" start_time="0.6"/>
+      </Driver>
+      <pedestrian>
+         <action end_frame="120" end_time="4" id="crossing" start_frame="1" start_time="0.033"/>
+      </pedestrian>
+   </actions>
+</video>
