@@ -136,4 +136,4 @@ Please send email to yulia_k@cse.yorku.ca or aras@cse.yorku.ca if there are any 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
