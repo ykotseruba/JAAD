@@ -11,8 +11,8 @@ To convert the video clips to image sequences, use the script 'split_clips_to_fr
 The bounding boxes are provided for all pedestrians in the videos (and very few vehicles) in vbb format which require a Piotr Dollar's Computer Vision Matlab Toolbox available at (https://pdollar.github.io/toolbox/). In total there are over 390K bounding boxes for 2793 unique pedestrians found in 88K video frames.
 
 There are two folders with bounding boxes.  
-* vbb_part contains bounding boxes with occlusion flags set to 1 for partial or full occlusion (partial occlusion is defined when between 25% and 75% of the object is covered, full occlusion is set when >75% of the object is covered).  
-* vbb_full contains bounding boxes ONLY with full occlusion.  
+* vbb_part: contains bounding boxes with occlusion flags set to 1 for partial or full occlusion (partial occlusion is defined when between 25% and 75% of the object is covered, full occlusion is set when >75% of the object is covered).  
+* vbb_full: contains bounding boxes ONLY with full occlusion.  
 
 To open vbb files in Matlab use the following command from the toolbox:
 ```
@@ -20,9 +20,9 @@ A = vbb('vbbLoad', 'vbb_part/video_0001.vbb');
 ```
 
 There are three types of labels in the vbb files:  
-car, car1, car2, ... - vehicles (only few vehicles that interact directly with the driver are labeled)  
-pedestrian, pedestrian1, pedestrian2, ... - pedestriansl with behavioral tags  
-ped1, ped2, .... - other pedestrians visible in the scene (bystanders) without behavioral tags and attributes  
+* car, car1, car2, ... - vehicles (only few vehicles that interact directly with the driver are labeled)  
+* pedestrian, pedestrian1, pedestrian2, ... - pedestrians with behavioral tags  
+* ped1, ped2, .... - other pedestrians visible in the scene (bystanders) without behavioral tags and attributes  
 
 To view vbb boxes with .seq files use the vbbLabeler utility provided with the toolbox.  
 
