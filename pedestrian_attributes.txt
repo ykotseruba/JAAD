@@ -94,8 +94,8 @@ video_0062, pedestrian4, 2, LAT, D, NS, male, adult, 1, OW, yes, 1
 video_0062, pedestrian5, 1, LAT, D, NS, male, adult, 1, OW, yes, 1
 video_0063, pedestrian1, 2, LAT, ND, n/a, male, adult, 1, OW, yes, 1
 video_0063, pedestrian2, 2, LAT, ND, n/a, female, adult, 1, OW, yes, 1
-video_0064, pedestrian1, 1, LONG, ND, n/a, female, adult, 1, OW, no, -1
-video_0064, pedestrian2, 1, LAT, D, NS, male, senior, 1, OW, yes, 1
+video_0064, pedestrian1, 1, LONG, ND, n/a, male, senior, 1, OW, yes, -1
+video_0064, pedestrian2, 1, LAT, D, NS, female, adult, 1, OW, yes, 1
 video_0065, pedestrian1, 1, n/a, ND, n/a, male, adult, 2, OW, yes, -1
 video_0065, pedestrian, 1, LAT, ND, n/a, male, senior, 2, OW, no, -1
 video_0066, pedestrian, 1, LAT, D, NS, male, adult, 1, OW, yes, 1
@@ -310,7 +310,7 @@ video_0168, pedestrian, 1, LAT, D, NS, female, adult, 4, TW, yes, 1
 video_0169, pedestrian, 1, LAT, D, NS, male, adult, 4, TW, yes, 1
 video_0170, pedestrian, 1, LAT, D, NS, female, adult, 4, TW, yes, 1
 video_0171, pedestrian1, 1, LAT, D, NS, female, adult, 2, OW, yes, 1
-video_0171, pedestrian2, 1, LONG, ND, n/a, female, senior, 2, OW, yes, 0
+video_0171, pedestrian2, 1, LONG, ND, n/a, female, senior, 2, OW, yes, -1
 video_0172, pedestrian1, 3, LAT, D, NS, male, adult, 1, TW, yes, 1
 video_0172, pedestrian2, 3, LAT, D, NS, male, adult, 1, TW, yes, 1
 video_0172, pedestrian3, 3, LAT, D, NS, male, adult, 1, TW, yes, 1
