@@ -3,8 +3,8 @@
 
 ############### CHANGE THESE PATHS #############################
 
-CLIPS_DIR=/media/yulia/Storage/jaad_data_online/JAAD_clips  #full path to the directory with mp4 videos
-FRAMES_DIR=/media/yulia/Storage/jaad_data_online/JAAD_frames  #full path to the directory for frames
+CLIPS_DIR=path_to_JAAD_clips  #full path to the directory with mp4 videos
+FRAMES_DIR=path_to_JAAD_frames  #full path to the directory for frames
 
 ################################################################
 
