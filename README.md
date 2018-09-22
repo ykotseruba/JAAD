@@ -43,15 +43,16 @@ A number of appearance attributes are provided for each pedestrian in the datase
 
 Mat files with annotations for each video in the JAAD dataset can be found in ```pedestrian_appearance_attributes``` folder. Each mat file contains a struct array ```ped_attr``` with number of elements equal to the number of frames in the video. For each frame we define a cell array ```pedestrians``` with pedestrian labels and cell array ```attributes``` with 1x24 binary vector corresponding to the attributes in ```attribute_names``` cell array. For frames with no pedestrians both fields are empty arrays.
 
+Below is Matlab console output showing how to access the attributes stored in the .mat files:
 ```
-load('pedestrian_appearance_attributes/video_0001.mat');
-ped_attr(10) %attributes for frame 10
-ans =
+>load('pedestrian_appearance_attributes/video_0001.mat');
+>ped_attr(10) %attributes for frame 10
+>ans =
     pedestrians: {'ped1'  'ped2'  'ped3'  'pedestrian'} %cell with pedestrian labels
     attributes: {1x4 cell} %pedestrian attributes in the same order as the labels
 
-ped_attr(10).attributes
-ans =
+>ped_attr(10).attributes
+>ans =
     [1x24 double]    [1x24 double]    [1x24 double]    [1x24 double] %binary arrays with appearance attributes
 ```
 
