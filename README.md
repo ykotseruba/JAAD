@@ -39,6 +39,10 @@ To view vbb boxes with `.seq` files use the vbbLabeler utility provided with the
 For experimentation with the dataset and use different subsets of the dataset please use our [Pedestrian Benchmark Framework (PBF)](https://github.com/aras62/PBF).
 
 ## Appearance attributes
+<p align="center">
+<img src="attr_samples.png" alt="attribute_samples" align="middle" width="500"/>
+</p>
+
 A number of appearance attributes are provided for each pedestrian in the dataset including coarse pose, clothing color and length, presence and location of the bag/backpack, headwear, accessories, etc.
 
 Mat files with annotations for each video in the JAAD dataset can be found in ```pedestrian_appearance_attributes``` folder. Each mat file contains a struct array ```ped_attr``` with number of elements equal to the number of frames in the video. For each frame we define a cell array ```pedestrians``` with pedestrian labels and cell array ```attributes``` with 1x24 binary vector corresponding to the attributes in ```attribute_names``` cell array. For frames with no pedestrians both fields are empty arrays.
