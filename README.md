@@ -31,8 +31,10 @@ A = vbb('vbbLoad', 'vbb_part/video_0001.vbb');
 
 There are three types of labels in the vbb files:
 * car, car1, car2, ... - vehicles (only few vehicles that interact directly with the driver are labeled)
-* pedestrian, pedestrian1, pedestrian2, ... - pedestrians with behavioral tags
+* pedestrian, pedestrian1, pedestrian2, ... - pedestrians with behavioral tags    
 * ped1, ped2, .... - other pedestrians visible in the scene (bystanders) without behavioral tags and attributes
+
+**Note that there are a few cases where pedestrian goes out of frame and reappears. We add a suffix to those pedestrian names (e.g. 'pedestrian1_p1', 'pedestrian1_p2') since vbb annotation format does not allow to repeat labels. Behavioral information uses the name of the pedestrian without suffix.
 
 To view vbb boxes with `.seq` files use the vbbLabeler utility provided with the toolbox.
 
