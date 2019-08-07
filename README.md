@@ -1,83 +1,125 @@
-# JAAD Pedestrian Detection Benchmark
+# JAAD 2.0: Annotations and python interface
 <p align="center">
-<img src="jaad_pedestrian_samples.png" alt="jaad_samples" align="middle" width="600"/>
+<img src="behavior.png" alt="jaad_samples" align="middle" width="600"/>
 </p>
 <br/><br/>
 
-JAAD Pedestrian Detection Benchmark is an extension of the [JAAD](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)  dataset annotated for detection of pedestrians under various conditions. The annotations are avaiable for the entire JAAD dataset comprising over 390K pedestrian samples in traffic scenes. A comparison of JAAD dataset with current state-of-the-art pedestrian detection benchmark datasets can be found in the table below.
+This repository contains new annotations for the Joint Attention in Autonomous Driving ([JAAD](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)) dataset. The annotations are in XML format and can be used with a newly introduced python interface. The original annotations can be found [here](https://github.com/ykotseruba/JAAD_pedestrian/tree/master).  
 
-<p align="center">
-<img src="jaad_comparison.png" alt="jaad_comparison" align="middle" width="400"/>
-</p>
+### Table of contents
+* [Annotations](#annotations)
+* [Video clips](#clips)
+* [Interface](#interface)
+	* [Dependencies](#dependencies)
+	* [Extracting images](#extracting)
+	* [Using the interface](#usage)
+		* [Parameters](#parameters)
+		* [Sequence analysis](#sequence)
+		* [Detection](#Detection)
+* [Citation](#citation)
+* [Authors](#authors)
+* [License](#license)
 
-## Image samples
-The image samples can be downloaded from the [JAAD](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/) webpage. The data comes as video sequences in both `.mp4`, and `.seq` format similar to the [Caltech](http://www.vision.caltech.edu/Image_Datasets/CaltechPedestrians/) dataset.
+<a name="annotations"></a>
+# Annotations
+JAAD annotations are organized based on associate video names. There are three types of lables, pedestrians (samples with behavior annnotations), peds (general pedestrians) and people (groups of pedestrians). Each pedestrian has a unique id in the form of
+`0_<video_id>_< pedestrian_number>`. Pedestrians with behavior annotations have a letter 'b' at the end of their id, e.g. `0_1_3b`. The annotations for people also follows the same routine with the exception of ending with letter 'p', e.g. `0_5_2p`.
 
-JAAD contains 346 high-resolution video clips generating approximately 82k image samples. The JAAD data is collected in different geographical locations and under various weather conditions such as clear, rainy or snowy.
+All samples are annotated with bounding boxes using two-point coordinates (top-left, bottom_right) `[x1, y1, x2, y2]`. The bounding boxes have corresponding occlusion tags. The occlusion values are either 0 (no occlusion), 1 (partial occlusion >25%) or 2 (full occlusion >75%).
 
-To convert the video clips to image sequences, use the script 'split_clips_to_frames.sh'.
+ Accoridng to their types, the annotations are divided into 5 groups:<br/>
+**Annotations**: These include pedestrian bounding box coordinates, occlusion information and activities (e.g. walking, looking). The activities are only for a subset of pedestrians. These annotations are one per frame per label.<br/>
+**Attributes** (pedestrians with behavior annotations only): These include information regarding pedestrians' demographics, crossing point, crossing characteristics, etc. These annotations are one per pedestrian.<br/>
+**Appearance** (videos with high visibility only): These include information regarding pedestrians' appearances such as pose, clothing, objects carreid (see `_get_ped_appearance()` for more details).  These annotations are one per frame per pedestrian.<br/>
+**Traffic**: These have information about traffic characteristics, e.g. signs, traffic light, for each frame. These annotations are one per frame per video.<br/>
+**Vehicle**: These are vehicle actions, e.g. moving fast, speeding up, per each frame. These annotations are one per frame per video<br/>
 
-## Bounding boxes
-The bounding boxes are provided for all pedestrians in the videos (and very few vehicles) in vbb format which require a [Piotr Dollar's Toolbox](https://pdollar.github.io/toolbox/). All pedestrian samples in every image are annotated with a unique id allowing one to track each sample across video sequences.
-
-There are two folders with bounding boxes.
-* vbb_part: contains bounding boxes with occlusion flags set to 1 for partial or full occlusion (partial occlusion is defined when between 25% and 75% of the object is covered, full occlusion is set when >75% of the object is covered).
-* vbb_full: contains bounding boxes ONLY with full occlusion.
-
-To open vbb files in Matlab use the following command from the toolbox:
+<a name="clips"></a>
+# Video clips
+JAAD contains 346 video clips. These clips should be downloaded and placed in JAAD_clips as follows:
 ```
-A = vbb('vbbLoad', 'vbb_part/video_0001.vbb');
+JAAD_clips/video_0001.mp4
+JAAD_clips/video_0002.mp4
+...
+```
+To download the videos, either run script `download_clips.sh` or manually download the clips from [here](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip), extract and copy the content into `JAAD_clips` folder.
+
+<a name="interface"></a>
+# Interface
+
+<a name="dependencies"></a>
+## Dependencies
+The interface is written and tested using python 3.5. The interface also requires
+the following external libraries:<br/>
+* opencv-python
+* numpy
+* scikit-learn
+
+<a name="extracting"></a>
+## Extracting images
+In order to use the data, first, the video clips should be converted into images. This can be done using script `split_clips_to_frames.sh` or via interface as follows:
+```
+from jaad_data import JAAD
+jaad_path = <path_to_the_root_folder>
+imdb = JAAD(data_path=jaad_path)
+imdb.extract_and_save_images()
 ```
 
-There are three types of labels in the vbb files:
-* car, car1, car2, ... - vehicles (only few vehicles that interact directly with the driver are labeled)
-* pedestrian, pedestrian1, pedestrian2, ... - pedestrians with behavioral tags    
-* ped1, ped2, .... - other pedestrians visible in the scene (bystanders) without behavioral tags and attributes
-
-**Note that there are a few cases where pedestrian goes out of frame and reappears. We add a suffix to those pedestrian names (e.g. 'pedestrian1_p1', 'pedestrian1_p2') since vbb annotation format does not allow to repeat labels. Behavioral information uses the name of the pedestrian without suffix.
-
-To view vbb boxes with `.seq` files use the vbbLabeler utility provided with the toolbox.
-
-For experimentation with the dataset and use different subsets of the dataset please use our [Pedestrian Benchmark Framework (PBF)](https://github.com/aras62/PBF).
-
-## Appearance attributes
-<p align="center">
-<img src="attr_samples.png" alt="attribute_samples" align="middle" width="500"/>
-</p>
-
-A number of appearance attributes are provided for each pedestrian in the dataset including coarse pose, clothing color and length, presence and location of the bag/backpack, headwear, accessories, etc.
-
-Mat files with annotations for each video in the JAAD dataset can be found in ```pedestrian_appearance_attributes``` folder. Each mat file contains a struct array ```ped_attr``` with number of elements equal to the number of frames in the video. For each frame we define a cell array ```pedestrians``` with pedestrian labels and cell array ```attributes``` with 1x24 binary vector corresponding to the attributes in ```attribute_names``` cell array. For frames with no pedestrians both fields are empty arrays.
-
-Below is Matlab console output showing how to access the attributes stored in the .mat files:
+Using either of the methods will create a folder called `images` and save the extracted images grouped by corresponding video ids in the folder.
 ```
->load('pedestrian_appearance_attributes/video_0001.mat');
->ped_attr(10) %attributes for frame 10
->ans =
-    pedestrians: {'ped1'  'ped2'  'ped3'  'pedestrian'} %cell with pedestrian labels
-    attributes: {1x4 cell} %pedestrian attributes in the same order as the labels
-
->ped_attr(10).attributes
->ans =
-    [1x24 double]    [1x24 double]    [1x24 double]    [1x24 double] %binary arrays with appearance attributes
+images/video_0001/
+				00000.png
+				00001.png
+				...
+images/video_0002/
+				00000.png
+				00001.png
+				...		
+...
 ```
 
-The following 24 attributes are defined in the ```attribute_names``` cell array: pose_front, pose_back, pose_left, pose_right, clothes_below_knee, clothes_upper_light, clothes_upper_dark, clothes_lower_light, clothes_lower_dark, backpack, bag_hand, bag_arm, bag_shoulder, bag_left_side, bag_right_side, cap, hood, sunglasses, umbrella, phone, baby, object, stroller/cart, bicycle/motorcycle.
+<a name="usage"></a>
+## Using the interface
+<a name="parameters"></a>
+Upon using any methods to extract data, the interface first generates a database (by calling `generate_database()`) of all annotations in the form of a dictionary and saves it as a `.pkl` file in the cache directory (the diffult path is `JAAD/data_cache`). For more detail regarding the structure of the database dictionary see `generate_database()`.
 
-- pose_front, pose_back... - coarse pose of the pedestrian relative to the camera
-- clothes_below_knee - long clothing
-- clothes_upper_light, clothes_lower_dark... - coarse clothing color above/below waist
-- backpack - presence of a backpack (worn on the back, not held in hand)
-- bag_hand, bag_elbow, bag_shoulder - whether bag(s) are held in a hand, on a bent elbow or worn on a shoulder
-- bag_left_side, bag_right_side - whether bag(s) appear on the left/right side of the pedestrian body
-- cap,hood - headwear
-- umbrella,phone,baby,object - various things carried by the pedestrians
-- stroller/cart - objects being pushed by the pedestrian
-- bicycle/motorcycle - for pedestrians riding or walking these vehicles
+### Parameters
+The interface has the following configuration parameters:
+```
+data_opts = {'fstride': 1,
+             'sample_type': 'all',  
+			 'subset': 'high_visibility',
+             'data_split_type': 'default',
+             'seq_type': 'trajectory',
+			 'height_rng': [0, float('inf')],
+			 'squarify_ratio': 0,
+             'min_track_size': 0,
+             'random_params': {'ratios': None,
+                               'val_data': True,
+                               'regen_data': True},
+             'kfold_params': {'num_folds': 5, 'fold': 1}}
+```
+*'fstride'*.  This is used for sequence data. The stride sepecifies the sampling resolution, i.e. every nth frame is used
+for processing.<br/>
+*'sample_type'*. This method specifies whether to extract `all` the pedestrians or only the ones with behavior data (`beh`).<br/>
+*'subset'*. Specifies which subset of videos to use based on degree of visibility and resolution.
+*'data_split_type'*. The JAAD data can be split into train/test or val in three different ways. `default` uses the predefined video ids specified in `.txt` files in split_ids folder. `random` randomly divides pedestrian ids into train/test (or val) subsets depending on `random_params` (see  method `_get_random_pedestrian_ids()` for more information). `kfold` divides the data into kfold cross validations depending on `kfold_params` (see  method `_get_kfold_pedestrian_ids()` for more information).<br/>
+*'seq_type'*. Type of sequence data to generate (see [Sequence analysis](#sequence)).
+*'height_rng'*. This parameters specify the range of pedestrian scales to be used in pixels. For example  `height_rng': [10, 50]` only uses pedestrians within the range of 30 to 50 pixels in height.<br/>
+*'squarify_ratio'*. This parameter can be used to fix the aspect ratio (widht/height) of bounding boxes. `0` the original bounding boxes are returned.<br/>
+*'min_track_size'*. The minimum allowable sequence length in frames.
 
-### Citing us
 
-If you use our dataset in your research, please consider citing:
+<a name="sequence"></a>
+### Sequence analysis
+There are three built-in sequence data generators accessed via `generate_data_trajectory_sequence`. The type of sequences generated are `trajectory`, `intention` (produce data similar to the ones used in [1]) and `crossing` (produces data similar to the one in [2]). To generate a custom data generator, follow a similar structure and add a function call to `generate_data_trajectory_sequence()` in the interface.
+
+<a name="detection"></a>
+### Detection
+The interface has a method called `get_detection_data()` which can be used to generate detection data. Currently, there are four build-in methods specified which either return data or produce and save data lists for models (see `get_detection_data()` for more information).
+
+<a name="citation"></a>
+# Citation
 
 ```
 @inproceedings{rasouli2017they,
@@ -95,23 +137,14 @@ If you use our dataset in your research, please consider citing:
   year={2018}
 }
 ```
-
+<a name="authors"></a>
 ## Authors
 
-* **Amir Rasouli**
-* **Yulia Kotseruba**
+* **[Amir Rasouli](http://www.cse.yorku.ca/~aras/index.html)**
+* **[Iuliia Kotseruba](http://www.cse.yorku.ca/~yulia_k/)**
 
-Please send email to yulia_k@cse.yorku.ca or aras@cse.yorku.ca if there are any problems with downloading or using the data.
+Please send email to yulia_k@eecs.yorku.ca or aras@eecs.yorku.ca if there are any problems with downloading or using the data.
 
+<a name="license"></a>
 ## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
-## References
-[1] P. Dollar, C. Wojek, B. Schiele, and P. Perona. Pedestrian detection: A benchmark. In CVPR, pages 304–311, 2009
-
-[2] A. Geiger, P. Lenz, C. Stiller, and R. Urtasun. Vision meets robotics: The kitti dataset. The International Journal of Robotics Research, 32(11):1231–1237, 2013.
-
-[3] S. Hwang, J. Park, N. Kim, Y. Choi, and I. So Kweon. Multispectral pedestrian detection: Benchmark dataset and baseline. In CVPR, pages 1037–1045, 2015.
-
-[4] S. Zhang, R. Benenson, and B. Schiele. Citypersons: A diverse dataset for pedestrian detection. In CVPR, pages 4457-4465, 2017.
