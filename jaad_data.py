@@ -1104,7 +1104,7 @@ class JAAD(object):
                 vehicle_seq.append([[vid_annots[i]]
                                     for i in frame_ids][::seq_stride])
 
-        print('Subset: %s' % image_set)
+        print('Split: %s' % image_set)
         print('Number of pedestrians: %d ' % num_pedestrians)
         print('Total number of samples: %d ' % len(image_seq))
 
@@ -1205,7 +1205,7 @@ class JAAD(object):
                 vehicle_seq.append([[vid_annots[i]]
                                     for i in frame_ids][::seq_stride])
 
-        print('Subset: %s' % image_set)
+        print('Split: %s' % image_set)
         print('Number of pedestrians: %d ' % num_pedestrians)
         print('Total number of samples: %d ' % len(image_seq))
 
@@ -1293,7 +1293,7 @@ class JAAD(object):
                         intent = [[1]] * len(boxes)
                 intent_seq.append(intent[::seq_stride])
 
-        print('Subset: %s' % image_set)
+        print('Split: %s' % image_set)
         print('Number of pedestrians: %d ' % num_pedestrians)
         print('Total number of samples: %d ' % len(image_seq))
 
