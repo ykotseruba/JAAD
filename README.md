@@ -24,7 +24,7 @@ This repository contains new annotations for the Joint Attention in Autonomous D
 # Annotations
 JAAD annotations are organized according to video clip names. There are three types of labels, pedestrians (samples with behavior annnotations), peds (bystanders that are far away and do not interact with the driver) and people (groups of pedestrians). Each pedestrian has a unique id in the form of `0_<video_id>_< pedestrian_number>`. Pedestrians with behavior annotations have a letter 'b' at the end of their id, e.g. `0_1_3b`. The annotations for people also follow the same pattern with the exception of ending with letter 'p', e.g. `0_5_2p`.
 
-All samples are annotated with bounding boxes using two-point coordinates (top-left, bottom_right) `[x1, y1, x2, y2]`. The bounding boxes have corresponding occlusion tags. The occlusion values are either 0 (no occlusion), 1 (partial occlusion >25%) or 2 (full occlusion >75%).
+All samples are annotated with bounding boxes using two-point coordinates (top-left, bottom-right) `[x1, y1, x2, y2]`. The bounding boxes have corresponding occlusion tags. The occlusion values are either 0 (no occlusion), 1 (partial occlusion >25%) or 2 (full occlusion >75%).
 
  According to their types, the annotations are divided into 5 groups:<br/>
 **Annotations**: These include pedestrian bounding box coordinates, occlusion information and activities (e.g. walking, looking). The activities are provided only for a subset of pedestrians. These annotations are one per frame per label.<br/>
@@ -105,7 +105,7 @@ for processing.<br/>
 *'data_split_type'*. The JAAD data can be split into train/test or val in three different ways. `default` uses the predefined train/val/test split specified in `.txt` files in `split_ids` folder. `random` randomly divides pedestrian ids into train/test (or val) subsets depending on `random_params` (see  method `_get_random_pedestrian_ids()` for more information). `kfold` divides the data into k sets for cross-validation depending on `kfold_params` (see  method `_get_kfold_pedestrian_ids()` for more information).<br/>
 *'seq_type'*. Type of sequence data to generate (see [Sequence analysis](#sequence)).
 *'height_rng'*. These parameters specify the range of pedestrian scales (in pixels) to be used. For example  `height_rng': [10, 50]` only uses pedestrians within the range of 10 to 50 pixels in height.<br/>
-*'squarify_ratio'*. This parameter can be used to fix the aspect ratio (widht/height) of bounding boxes. `0` the original bounding boxes are returned.<br/>
+*'squarify_ratio'*. This parameter can be used to fix the aspect ratio (width/height) of bounding boxes. `0` the original bounding boxes are returned.<br/>
 *'min_track_size'*. The minimum allowable sequence length in frames. Shorter sequences will not be used.
 
 
