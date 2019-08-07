@@ -22,27 +22,26 @@ This repository contains new annotations for the Joint Attention in Autonomous D
 
 <a name="annotations"></a>
 # Annotations
-JAAD annotations are organized based on associate video names. There are three types of lables, pedestrians (samples with behavior annnotations), peds (general pedestrians) and people (groups of pedestrians). Each pedestrian has a unique id in the form of
-`0_<video_id>_< pedestrian_number>`. Pedestrians with behavior annotations have a letter 'b' at the end of their id, e.g. `0_1_3b`. The annotations for people also follows the same routine with the exception of ending with letter 'p', e.g. `0_5_2p`.
+JAAD annotations are organized according to video clip names. There are three types of labels, pedestrians (samples with behavior annnotations), peds (bystanders that are far away and do not interact with the driver) and people (groups of pedestrians). Each pedestrian has a unique id in the form of `0_<video_id>_< pedestrian_number>`. Pedestrians with behavior annotations have a letter 'b' at the end of their id, e.g. `0_1_3b`. The annotations for people also follow the same pattern with the exception of ending with letter 'p', e.g. `0_5_2p`.
 
 All samples are annotated with bounding boxes using two-point coordinates (top-left, bottom_right) `[x1, y1, x2, y2]`. The bounding boxes have corresponding occlusion tags. The occlusion values are either 0 (no occlusion), 1 (partial occlusion >25%) or 2 (full occlusion >75%).
 
- Accoridng to their types, the annotations are divided into 5 groups:<br/>
-**Annotations**: These include pedestrian bounding box coordinates, occlusion information and activities (e.g. walking, looking). The activities are only for a subset of pedestrians. These annotations are one per frame per label.<br/>
+ According to their types, the annotations are divided into 5 groups:<br/>
+**Annotations**: These include pedestrian bounding box coordinates, occlusion information and activities (e.g. walking, looking). The activities are provided only for a subset of pedestrians. These annotations are one per frame per label.<br/>
 **Attributes** (pedestrians with behavior annotations only): These include information regarding pedestrians' demographics, crossing point, crossing characteristics, etc. These annotations are one per pedestrian.<br/>
-**Appearance** (videos with high visibility only): These include information regarding pedestrians' appearances such as pose, clothing, objects carreid (see `_get_ped_appearance()` for more details).  These annotations are one per frame per pedestrian.<br/>
-**Traffic**: These have information about traffic characteristics, e.g. signs, traffic light, for each frame. These annotations are one per frame per video.<br/>
-**Vehicle**: These are vehicle actions, e.g. moving fast, speeding up, per each frame. These annotations are one per frame per video<br/>
+**Appearance** (videos with high visibility only): These include information regarding pedestrian appearance such as pose, clothing, objects carreid (see `_get_ped_appearance()` for more details).  These annotations are one per frame per pedestrian.<br/>
+**Traffic**: These provide information about traffic, e.g. signs, traffic light, for each frame. These annotations are one per frame.<br/>
+**Vehicle**: These are vehicle actions, e.g. moving fast, speeding up, per each frame.<br/>
 
 <a name="clips"></a>
 # Video clips
-JAAD contains 346 video clips. These clips should be downloaded and placed in JAAD_clips as follows:
+JAAD contains 346 video clips. These clips should be downloaded and placed in `JAAD_clips` folder as follows:
 ```
 JAAD_clips/video_0001.mp4
 JAAD_clips/video_0002.mp4
 ...
 ```
-To download the videos, either run script `download_clips.sh` or manually download the clips from [here](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip), extract and copy the content into `JAAD_clips` folder.
+To download the videos, either run script `download_clips.sh` or manually download the clips from [here](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip) and extract the zip archive.
 
 <a name="interface"></a>
 # Interface
@@ -81,38 +80,38 @@ images/video_0002/
 <a name="usage"></a>
 ## Using the interface
 <a name="parameters"></a>
-Upon using any methods to extract data, the interface first generates a database (by calling `generate_database()`) of all annotations in the form of a dictionary and saves it as a `.pkl` file in the cache directory (the diffult path is `JAAD/data_cache`). For more detail regarding the structure of the database dictionary see `generate_database()`.
+Upon using any methods to extract data, the interface first generates a database (by calling `generate_database()`) of all annotations in the form of a dictionary and saves it as a `.pkl` file in the cache directory (the default path is `JAAD/data_cache`). For more details regarding the structure of the database dictionary see comments in the `jaad_data.py` for function `generate_database()`.
 
 ### Parameters
 The interface has the following configuration parameters:
 ```
 data_opts = {'fstride': 1,
              'sample_type': 'all',  
-			 'subset': 'high_visibility',
+	     'subset': 'high_visibility',
              'data_split_type': 'default',
              'seq_type': 'trajectory',
-			 'height_rng': [0, float('inf')],
-			 'squarify_ratio': 0,
+	     'height_rng': [0, float('inf')],
+	     'squarify_ratio': 0,
              'min_track_size': 0,
              'random_params': {'ratios': None,
                                'val_data': True,
                                'regen_data': True},
              'kfold_params': {'num_folds': 5, 'fold': 1}}
 ```
-*'fstride'*.  This is used for sequence data. The stride sepecifies the sampling resolution, i.e. every nth frame is used
+*'fstride'*.  This is used for sequence data. The stride specifies the sampling resolution, i.e. every nth frame is used
 for processing.<br/>
 *'sample_type'*. This method specifies whether to extract `all` the pedestrians or only the ones with behavior data (`beh`).<br/>
 *'subset'*. Specifies which subset of videos to use based on degree of visibility and resolution.
-*'data_split_type'*. The JAAD data can be split into train/test or val in three different ways. `default` uses the predefined video ids specified in `.txt` files in split_ids folder. `random` randomly divides pedestrian ids into train/test (or val) subsets depending on `random_params` (see  method `_get_random_pedestrian_ids()` for more information). `kfold` divides the data into kfold cross validations depending on `kfold_params` (see  method `_get_kfold_pedestrian_ids()` for more information).<br/>
+*'data_split_type'*. The JAAD data can be split into train/test or val in three different ways. `default` uses the predefined train/val/test split specified in `.txt` files in `split_ids` folder. `random` randomly divides pedestrian ids into train/test (or val) subsets depending on `random_params` (see  method `_get_random_pedestrian_ids()` for more information). `kfold` divides the data into k sets for cross-validation depending on `kfold_params` (see  method `_get_kfold_pedestrian_ids()` for more information).<br/>
 *'seq_type'*. Type of sequence data to generate (see [Sequence analysis](#sequence)).
-*'height_rng'*. This parameters specify the range of pedestrian scales to be used in pixels. For example  `height_rng': [10, 50]` only uses pedestrians within the range of 30 to 50 pixels in height.<br/>
+*'height_rng'*. These parameters specify the range of pedestrian scales (in pixels) to be used. For example  `height_rng': [10, 50]` only uses pedestrians within the range of 10 to 50 pixels in height.<br/>
 *'squarify_ratio'*. This parameter can be used to fix the aspect ratio (widht/height) of bounding boxes. `0` the original bounding boxes are returned.<br/>
-*'min_track_size'*. The minimum allowable sequence length in frames.
+*'min_track_size'*. The minimum allowable sequence length in frames. Shorter sequences will not be used.
 
 
 <a name="sequence"></a>
 ### Sequence analysis
-There are three built-in sequence data generators accessed via `generate_data_trajectory_sequence`. The type of sequences generated are `trajectory`, `intention` (produce data similar to the ones used in [1]) and `crossing` (produces data similar to the one in [2]). To generate a custom data generator, follow a similar structure and add a function call to `generate_data_trajectory_sequence()` in the interface.
+There are three built-in sequence data generators accessed via `generate_data_trajectory_sequence()`. The type of sequences generated are `trajectory`, `intention` and `crossing`. To create a custom data generator, follow a similar structure and add a function call to `generate_data_trajectory_sequence()` in the interface.
 
 <a name="detection"></a>
 ### Detection
@@ -120,7 +119,7 @@ The interface has a method called `get_detection_data()` which can be used to ge
 
 <a name="citation"></a>
 # Citation
-
+If you use our dataset, please cite:
 ```
 @inproceedings{rasouli2017they,
   title={Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian Crosswalk Behavior},
