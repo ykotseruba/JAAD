@@ -934,7 +934,7 @@ class JAAD(object):
         _pids = None
 
         if params['data_split_type'] == 'default':
-            return self._get_video_ids_split(image_set, params['subset'])
+            return self._get_video_ids_split(image_set, params['subset']), _pids
 
         video_ids = self._get_video_ids_split('all', params['subset'])
         if params['data_split_type'] == 'random':
