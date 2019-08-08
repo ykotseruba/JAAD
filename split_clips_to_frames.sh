@@ -24,6 +24,6 @@ echo $fname
 
 #create a directory for each frame sequence
 mkdir ${FRAMES_DIR}/$fname
-ffmpeg -i $file -f image2 -qscale 1 ${FRAMES_DIR}/$fname/%05d.png
+ffmpeg -i $file -start_number 0 -f image2 -qscale 1 ${FRAMES_DIR}/$fname/%05d.png
 
 done
