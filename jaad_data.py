@@ -269,7 +269,7 @@ class JAAD(object):
                    'road_type': {0: 'street', 1: 'parking_lot', 2: 'garage'},
                    'traffic_light': {0: 'n/a', 1: 'red', 2: 'green'}}
 
-        return map_dic[label_type][str(value)]
+        return map_dic[label_type][value]
 
     def _get_annotations(self, vid):
         """
