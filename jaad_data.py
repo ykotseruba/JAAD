@@ -225,7 +225,7 @@ class JAAD(object):
                                     'rightofway': 3, 'other': 4},
                    'reaction': {'__undefined__': 0, 'clear_path': 1, 'speed_up': 2,
                                 'slow_down': 3},
-                   'crossing': {'not-crossing': 0, 'crossing': 1, 'irrelevant': -1},
+                   'cross': {'not-crossing': 0, 'crossing': 1, 'irrelevant': -1},
                    'age': {'child': 0, 'young': 1, 'adult': 2, 'senior': 3},
                    'designated': {'ND': 0, 'D': 1},
                    'gender': {'n/a': 0, 'female': 1, 'male': 2},
@@ -256,7 +256,7 @@ class JAAD(object):
                                     4: 'other'},
                    'reaction': {0: '__undefined__', 1: 'clear_path',
                                 2: 'speed_up', 3: 'slow_down'},
-                   'crossing': {0: 'not-crossing', 1: 'crossing', -1: 'irrelevant'},
+                   'cross': {0: 'not-crossing', 1: 'crossing', -1: 'irrelevant'},
                    'age': {0: 'child', 1: 'young', 2: 'adult', 3: 'senior'},
                    'designated': {0: 'ND', 1: 'D'},
                    'gender': {0: 'n/a', 1: 'female', 2: 'male'},
@@ -1006,7 +1006,7 @@ class JAAD(object):
                   'subset': 'default',
                   'height_rng': [0, float('inf')],
                   'squarify_ratio': 0,
-                  'data_split_type': 'kfold',  # kfold, random, default
+                  'data_split_type': 'default',  # kfold, random, default
                   'seq_type': 'intention',
                   'min_track_size': 15,
                   'random_params': {'ratios': None,
@@ -1156,7 +1156,7 @@ class JAAD(object):
 
                 frame_ids = pid_annots[pid]['frames']
 
-                if params['sample_type'] == 'beh':
+                if 'b' in pid:
                     event_frame = pid_annots[pid]['attributes']['crossing_point']
                 else:
                     event_frame = -1
@@ -1164,8 +1164,7 @@ class JAAD(object):
                 if event_frame == -1:
                     end_idx = -3
                 else:
-                    end_idx = frame_ids.index(event_frame)
-
+                   end_idx = frame_ids.index(event_frame)
                 boxes = pid_annots[pid]['bbox'][:end_idx + 1]
                 frame_ids = frame_ids[: end_idx + 1]
                 images = [self._get_image_path(vid, f) for f in frame_ids]
