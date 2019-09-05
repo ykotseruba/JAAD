@@ -762,12 +762,11 @@ class JAAD(object):
         """
         Generates data for pedestrian detection algorithms
         :param image_set: Split set name
-        :param method: Detection algorithm
+        :param method: Detection algorithm: frcnn, retinanet, yolo3, ssd
         :param occlusion_type: The types of occlusion: None: only unoccluded samples
                                                        part: Unoccluded and partially occluded samples
                                                        full: All samples
         :param file_path: Where to save the script file
-
         :return: Pedestrian samples
         """
         squarify_ratio = params['squarify_ratio']
@@ -796,7 +795,7 @@ class JAAD(object):
                 imgs = [join(self._jaad_path, 'images', vid, '{:05d}.png'.format(f)) for f in \
                         annotations[vid]['ped_annotations'][pid]['frames']]
                 boxes = annotations[vid]['ped_annotations'][pid]['bbox']
-                occlusion = annotations[vid]['ped_annotations'][pid]['occ']
+                occlusion = annotations[vid]['ped_annotations'][pid]['occlusion']
 
                 images = []
                 box = []
@@ -872,7 +871,7 @@ class JAAD(object):
         Data generation for Retinanet algorithm
         :param image_set: Data split
         :param file_path: Path to save the data
-        :param ped_samples: dictionary of all samples
+        :param ped_samples: Dictionary of all samples
         """
         class_name = 'pedestrian'
         with open(file_path + 'retinanet_' + image_set + '.csv', "wt") as f:
@@ -890,7 +889,7 @@ class JAAD(object):
         Data generation for YOLO3 algorithm
         :param image_set: Data split
         :param file_path: Path to save the data
-        :param ped_samples: dictionary of all samples
+        :param ped_samples: Dictionary of all samples
         """
         class_name = 'pedestrian'
         all_imgs = {}
@@ -900,14 +899,14 @@ class JAAD(object):
                     all_imgs[img] = []
                 all_imgs[img].append(box)
 
-        with open(file_path + 'yolo3_' + image_set + '.csv', "wt") as f:
+        with open(file_path + 'yolo3_' + image_set + '.txt', "wt") as f:
             for im, boxes in all_imgs.items():
                 f.write('%s ' % (im))
                 for box in boxes:
                     f.write('%.0f,%.0f,%.0f,%.0f,%.0f ' % (box[0], box[1], box[2], box[3], 0))
                 f.write('\n')
             print('Data generated for YOLO3')
-        with open('mapping_' + file_path, "w") as f:
+        with open( file_path + 'mapping_yolo3', "w") as f:
             f.write('%s,0\n' % (class_name))
 
     def _generate_csv_data_ssd(self, image_set, file_path, ped_samples):
@@ -915,7 +914,7 @@ class JAAD(object):
         Data generation for SSD algorithm
         :param image_set: Data split
         :param file_path: Path to save the data
-        :param ped_samples: dictionary of all samples
+        :param ped_samples: Dictionary of all samples
         """
         with open(file_path + 'ssd_' + image_set + '.csv', "wt") as f:
             for sample in ped_samples:
@@ -1013,9 +1012,9 @@ class JAAD(object):
                                     'val_data': True,
                                     'regen_data': False},
                   'kfold_params': {'num_folds': 5, 'fold': 1}}
-
-        for k in opts:
-            params[k] = opts[k]
+        assert all(k in params for k in opts.keys()), "Wrong option(s)."\
+        "Choose one of the following: {}".format(list(params.keys()))
+        params.update(opts)
 
         print('---------------------------------------------------------')
         print("Generating action sequence data")
