@@ -770,11 +770,11 @@ class JAAD(object):
         :return: Pedestrian samples
         """
         squarify_ratio = params['squarify_ratio']
-        height_rng = params['height_rng'],
+        height_rng = params['height_rng']
         if not exists(file_path):
             makedirs(file_path)
 
-        if height_rng is not None:
+        if height_rng is None:
             height_rng = [0, float('inf')]
 
         annotations = self.generate_database()
