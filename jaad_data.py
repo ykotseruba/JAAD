@@ -827,11 +827,11 @@ class JAAD(object):
         if method == 'frcnn':
             return self._get_data_frcnn(ped_samples)
         elif method == 'retinanet':
-            self._generate_csv_data_retinanet(image_set, file_path, ped_samples)
+            return self._generate_csv_data_retinanet(image_set, file_path, ped_samples)
         elif method == 'yolo3':
-            self._generate_csv_data_yolo3(image_set, file_path, ped_samples)
+            return self._generate_csv_data_yolo3(image_set, file_path, ped_samples)
         elif method == 'ssd':
-            self._generate_csv_data_ssd(image_set, file_path, ped_samples)
+            return self._generate_csv_data_ssd(image_set, file_path, ped_samples)
 
     def _get_data_frcnn(self, ped_samples):
         """
