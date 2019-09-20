@@ -770,66 +770,60 @@ class JAAD(object):
         :return: Pedestrian samples
         """
         squarify_ratio = params['squarify_ratio']
+        frame_stride = params['fstride']
         height_rng = params['height_rng']
         if not exists(file_path):
             makedirs(file_path)
-
         if height_rng is None:
             height_rng = [0, float('inf')]
 
         annotations = self.generate_database()
         video_ids, _pids = self._get_data_ids(image_set, params)
 
-        ped_samples = []
+        ped_samples = {}
+        unique_samples = []
         total_sample_count = 0
         for vid in video_ids:
             img_width = annotations[vid]['width']
             img_height = annotations[vid]['height']
+            num_frames = annotations[vid]['num_frames']
+            for i in range(0,num_frames,frame_stride):
+                ped_samples[join(self._jaad_path, 'images', vid, '{:05d}.png'.format(i))] = []
             for pid in annotations[vid]['ped_annotations']:
                 if params['data_split_type'] != 'default' and pid not in _pids:
                     continue
-                if 'people' in annotations[vid]['ped_annotations'][pid]['old_id'] and \
-                        image_set in ['train', 'val']:
-                    continue
-
+                difficult =  0
+                if 'p' in pid:
+                    difficult = -1
+                    if image_set in ['train', 'val']:
+                        continue
                 imgs = [join(self._jaad_path, 'images', vid, '{:05d}.png'.format(f)) for f in \
                         annotations[vid]['ped_annotations'][pid]['frames']]
                 boxes = annotations[vid]['ped_annotations'][pid]['bbox']
                 occlusion = annotations[vid]['ped_annotations'][pid]['occlusion']
-
-                images = []
-                box = []
-                occ = []
                 for i, b in enumerate(boxes):
+                    if imgs[i] not in ped_samples:
+                        continue
                     bbox_height = abs(b[0] - b[2])
                     if height_rng[0] <= bbox_height <= height_rng[1]:
                         if (occlusion_type == None and occlusion[i] == 0) or \
                                 (occlusion_type == 'part' and occlusion[i] < 2) or \
                                 (occlusion_type == 'full'):
-                            box.append(b)
-                            images.append(imgs[i])
-                            occ.append(occlusion[i])
-                if squarify_ratio:
-                    box = [self._squarify(b, squarify_ratio, img_width) for b in box]
-                if 'people' in annotations[vid]['ped_annotations'][pid]['old_id']:
-                    difficult = [-1] * len(box)
-                else:
-                    difficult = [0] * len(box)
-
-                seg_areas = [(b[2] - b[0] + 1) * (b[3] - b[1] + 1) for b in box]
-                ped_ids = [pid] * len(box)
-                total_sample_count += len(box)
-                ped_samples.append({'width': img_width,
-                                    'height': img_height,
-                                    'tags': ped_ids,
-                                    'image': images,
-                                    'boxes': box,
-                                    'seg_areas': seg_areas,
-                                    'occlusion': occ,
-                                    'difficult': difficult})
-        print('Number of unique pedestrians %d ' % len(ped_samples))
+                            if squarify_ratio:
+                                b = self._squarify(b, squarify_ratio, img_width)
+                            ped_samples[imgs[i]].append(
+                                                {'width': img_width,
+                                                'height': img_height,
+                                                'tag': pid,
+                                                'box': b,
+                                                'seg_area': (b[2] - b[0] + 1) * (b[3] - b[1] + 1),
+                                                'occlusion': occlusion[i],
+                                                'difficult': difficult})
+                            if pid not in unique_samples:
+                                unique_samples.append(pid)
+                            total_sample_count += 1
+        print('Number of unique pedestrians %d ' % len(unique_samples))
         print('Number of samples %d ' % total_sample_count)
-
         if method == 'frcnn':
             return self._get_data_frcnn(ped_samples)
         elif method == 'retinanet':
@@ -853,11 +847,13 @@ class JAAD(object):
         classes_count[class_name] = 0
         class_mapping[class_name] = 0
 
-        for sample in ped_samples:
-            for img, box in zip(sample['image'], sample['boxes']):
-                if img not in all_imgs:
-                    all_imgs[img] = {'filepath': img, 'width': sample['width'],
-                                     'height': sample['height'], 'bboxes': []}
+        for img, samples in sorted(ped_samples.items()):
+            if not samples:
+                continue
+            all_imgs[img] = {'filepath': img, 'width': samples[0]['width'],
+                             'height': samples[0]['height'], 'bboxes': []}
+            for s in samples:
+                box = s['box']
                 all_imgs[img]['bboxes'].append({'class': class_name, 'x1': box[0],
                                                 'x2': box[2], 'y1': box[1], 'y2': box[3]})
         print('Data generated for Faster-rcnn')
@@ -874,15 +870,20 @@ class JAAD(object):
         :param ped_samples: Dictionary of all samples
         """
         class_name = 'pedestrian'
-        with open(file_path + 'retinanet_' + image_set + '.csv', "wt") as f:
-            for sample in ped_samples:
-                for img, box in zip(sample['image'], sample['boxes']):
+        data_save_path = file_path + 'retinanet_' + image_set + '.csv'
+        with open(data_save_path, "wt") as f:
+            for img, samples in sorted(ped_samples.items()):
+                if not samples:
+                    f.write('%s,,,,,\n' % (img))
+                for s in samples:
+                    box = s['box']
                     f.write('%s,%.0f,%.0f,%.0f,%.0f,%s\n' % (img, box[0], box[1], box[2], box[3], class_name))
             print('Data generated for Retinanet')
 
             map_path = file_path + '_mapping.csv'
             with open(map_path, "w") as f:
                 f.write('%s,0\n' % (class_name))
+        return data_save_path, map_path
 
     def _generate_csv_data_yolo3(self, image_set, file_path, ped_samples):
         """
@@ -893,21 +894,21 @@ class JAAD(object):
         """
         class_name = 'pedestrian'
         all_imgs = {}
-        for sample in ped_samples:
-            for img, box in zip(sample['image'], sample['boxes']):
-                if img not in all_imgs:
-                    all_imgs[img] = []
-                all_imgs[img].append(box)
-
-        with open(file_path + 'yolo3_' + image_set + '.txt', "wt") as f:
-            for im, boxes in all_imgs.items():
-                f.write('%s ' % (im))
-                for box in boxes:
+        data_save_path = file_path + 'yolo3_' + image_set + '.txt'
+        with open(data_save_path, "wt") as f:
+            for img, samples in sorted(ped_samples.items()):
+                if not samples:
+                    continue
+                f.write('%s ' % (img))
+                for s in samples:
+                    box = s['box']
                     f.write('%.0f,%.0f,%.0f,%.0f,%.0f ' % (box[0], box[1], box[2], box[3], 0))
                 f.write('\n')
             print('Data generated for YOLO3')
-        with open( file_path + 'mapping_yolo3', "w") as f:
+        map_path = file_path + 'mapping_yolo3'
+        with open(map_path, "wt") as f:
             f.write('%s,0\n' % (class_name))
+        return data_save_path, map_path
 
     def _generate_csv_data_ssd(self, image_set, file_path, ped_samples):
         """
@@ -916,11 +917,16 @@ class JAAD(object):
         :param file_path: Path to save the data
         :param ped_samples: Dictionary of all samples
         """
-        with open(file_path + 'ssd_' + image_set + '.csv', "wt") as f:
-            for sample in ped_samples:
-                for img, box in zip(sample['image'], sample['boxes']):
-                    f.write('%s,%.0f,%.0f,%.0f,%.0f,%f\n' % (img, box[0], box[1], box[2], box[3], 1))
+        data_save_path = file_path + 'ssd_' + image_set + '.csv'
+        with open(data_save_path, "wt") as f:
+            for img, samples in sorted(ped_samples.items()):
+                if not samples:
+                    continue
+                for s in samples:
+                    box = s['box']
+                    f.write('%s,%.0f,%.0f,%.0f,%.0f,%s\n' % (img, box[0], box[1], box[2], box[3], 1))
             print('Data generated for SSD')
+        return data_save_path
 
     # Trajectory data generation
     def _get_data_ids(self, image_set, params):
