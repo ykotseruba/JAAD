@@ -394,9 +394,9 @@ class JAAD(object):
         traffic_attributes = {'road_type': self._map_text_to_scalar('road_type', road_type)}
         frames = tree.findall("./frame")
         for f in frames:
-            traffic_attributes[int(f.get('id'))] = {'ped_crossing': f.get('ped_crossing'),
-                                                    'ped_sign': f.get('ped_sign'),
-                                                    'stop_sign': f.get('stop_sign'),
+            traffic_attributes[int(f.get('id'))] = {'ped_crossing': int(f.get('ped_crossing')),
+                                                    'ped_sign': int(f.get('ped_sign')),
+                                                    'stop_sign': int(f.get('stop_sign')),
                                                     'traffic_light': self._map_text_to_scalar('traffic_light',
                                                                                              f.get('traffic_light'))}
 
