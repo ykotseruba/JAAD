@@ -964,7 +964,7 @@ class JAAD(object):
         """
         imgs, box, frames, occ = [], [], [], []
         for i, b in enumerate(boxes):
-            bbox_height = abs(b[0] - b[2])
+            bbox_height = abs(b[1] - b[3])
             if height_rng[0] <= bbox_height <= height_rng[1]:
                 box.append(b)
                 imgs.append(images[i])
