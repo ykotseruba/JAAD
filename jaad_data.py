@@ -1091,7 +1091,7 @@ class JAAD(object):
 
                 ped_ids = [[pid]] * len(boxes)
 
-                if params['sample_type'] == 'all':
+                 if 'b' not in pid:
                     intent = [[0]] * len(boxes)
                 else:
                     if annotations[vid]['ped_annotations'][pid]['attributes']['crossing'] == -1:
@@ -1288,7 +1288,7 @@ class JAAD(object):
                 ped_ids = [[pid]] * len(boxes)
                 pids_seq.append(ped_ids[::seq_stride])
 
-                if params['sample_type'] == 'all':
+                if 'b' not in pid:
                     intent = [[0]] * len(boxes)
                 else:
                     if annotations[vid]['ped_annotations'][pid]['attributes']['crossing'] == -1:
