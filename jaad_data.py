@@ -1256,7 +1256,7 @@ class JAAD(object):
                 num_pedestrians += 1
                 frame_ids = pid_annots[pid]['frames']
 
-                if params['sample_type'] == 'beh':
+                if 'b' in pid:
                     event_frame = pid_annots[pid]['attributes']['decision_point']
                 else:
                     event_frame = -1
