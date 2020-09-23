@@ -1091,7 +1091,7 @@ class JAAD(object):
 
                 ped_ids = [[pid]] * len(boxes)
 
-                 if 'b' not in pid:
+                if 'b' not in pid:
                     intent = [[0]] * len(boxes)
                 else:
                     if annotations[vid]['ped_annotations'][pid]['attributes']['crossing'] == -1:
