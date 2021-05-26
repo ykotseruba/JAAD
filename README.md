@@ -142,7 +142,7 @@ If you use our dataset, please cite:
 * **[Amir Rasouli](http://www.cse.yorku.ca/~aras/index.html)**
 * **[Iuliia Kotseruba](http://www.cse.yorku.ca/~yulia_k/)**
 
-Please send email to yulia_k@eecs.yorku.ca or aras@eecs.yorku.ca if there are any problems with downloading or using the data.
+Please send email to yulia_k@eecs.yorku.ca or arasouli.ai@gmail.com if there are any problems with downloading or using the data.
 
 <a name="license"></a>
 ## License
