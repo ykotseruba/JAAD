@@ -148,4 +148,6 @@ Please send email to yulia_k@eecs.yorku.ca or arasouli.ai@gmail.com if there are
 
 <a name="license"></a>
 ## License
-This project, which includes videos, annotations and supporting code, is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+The video clips are licensed under [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). 
