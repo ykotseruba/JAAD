@@ -61,7 +61,7 @@ the following external libraries:<br/>
 In order to use the data, first, the video clips should be converted into images. This can be done using script `split_clips_to_frames.sh` or via interface as follows:
 ```
 from jaad_data import JAAD
-jaad_path = <path_to_the_root_folder>
+jaad_path = <path_to_the_dataset_root_folder>
 imdb = JAAD(data_path=jaad_path)
 imdb.extract_and_save_images()
 ```
