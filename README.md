@@ -29,7 +29,7 @@ JAAD annotations are organized according to video clip names. There are three ty
 All samples are annotated with bounding boxes using two-point coordinates (top-left, bottom-right) `[x1, y1, x2, y2]`. The bounding boxes have corresponding occlusion tags. The occlusion values are either 0 (no occlusion), 1 (partial occlusion >25%) or 2 (full occlusion >75%).
 
  According to their types, the annotations are divided into 5 groups:<br/>
-**Annotations**: These include pedestrian bounding box coordinates, occlusion information and activities (e.g. walking, looking). The activities are provided only for a subset of pedestrians. These annotations are one per frame per label.<br/>
+**Annotations**: These include video attributes (time of day, weather, location), pedestrian bounding box coordinates, occlusion information and activities (e.g. walking, looking). The activities are provided only for a subset of pedestrians. These annotations are one per frame per label.<br/>
 **Attributes** (pedestrians with behavior annotations only): These include information regarding pedestrians' demographics, crossing point, crossing characteristics, etc. These annotations are one per pedestrian.<br/>
 **Appearance** (videos with high visibility only): These include information regarding pedestrian appearance such as pose, clothing, objects carreid (see `_get_ped_appearance()` for more details).  These annotations are one per frame per pedestrian.<br/>
 **Traffic**: These provide information about traffic, e.g. signs, traffic light, for each frame. These annotations are one per frame.<br/>
