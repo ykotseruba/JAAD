@@ -199,7 +199,7 @@ class JAAD(object):
             while success:
                 self.update_progress(img_count / num_frames)
                 img_count += 1
-                img_path = join(save_images_path, "{:05d}.png").format(frame_num)
+                img_path = join(save_images_path, "{:05d}.png".format(frame_num))
                 if not exists(img_path):
                     cv2.imwrite(img_path, image)
                 #else:
