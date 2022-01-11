@@ -126,7 +126,7 @@ If you use our dataset, please cite:
 @inproceedings{rasouli2017they,
   title={Are They Going to Cross? A Benchmark Dataset and Baseline for Pedestrian Crosswalk Behavior},
   author={Rasouli, Amir and Kotseruba, Iuliia and Tsotsos, John K},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
+  booktitle={ICCVW},
   pages={206--213},
   year={2017}
 }
