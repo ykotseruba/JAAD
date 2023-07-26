@@ -42,7 +42,7 @@ JAAD_clips/video_0001.mp4
 JAAD_clips/video_0002.mp4
 ...
 ```
-To download the videos, either run script `download_clips.sh` or manually download the clips from [here](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip) or [here](https://www.dropbox.com/sh/zcniegbsxedpcd8/AADiEO7_X4a_bX4S2dHMfYfza?dl=0) and extract the zip archive.
+To download the videos, either run script `download_clips.sh` or manually download the clips from [here](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip) and extract the zip archive.
 
 <a name="interface"></a>
 # Interface
