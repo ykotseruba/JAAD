@@ -6,7 +6,7 @@
 
 This repository contains new annotations for the Joint Attention in Autonomous Driving ([JAAD](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/)) dataset. The annotations are in XML format and can be used with a newly introduced python interface. The original annotations can be found [here](https://github.com/ykotseruba/JAAD_pedestrian/tree/master).  
 
-**Download video clips:** [YorkU server](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip)
+**Download video clips:** [YorkU server](http://data.nvision2.eecs.yorku.ca/JAAD_dataset/data/JAAD_clips.zip) [Google Drive](https://drive.google.com/file/d/1HCFLBO9fJutCKG11FtjKfdLvME6Qe_5L/view?usp=drive_link)
 ### Table of contents
 * [Annotations](#annotations)
 * [Video clips](#clips)
